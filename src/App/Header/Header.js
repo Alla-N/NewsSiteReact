@@ -5,6 +5,7 @@ import RightSide from './RightSide/RightSide.js'
 import Logo from './Logo/Logo.js'
 import HeaderNavMenu from './HeaderNavMenu/HeaderNavMenu.js'
 import NavButtons from './NavButtons/NavButtons.js'
+import HeaderSlider from './HeaderSlider/HeaderSlider.js'
 
 
 const Header = () =>{
@@ -36,6 +37,9 @@ const Header = () =>{
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <HeaderSlider />
             </div>
         </div>
     )
