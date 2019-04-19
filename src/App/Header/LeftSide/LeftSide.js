@@ -10,7 +10,7 @@ import icon6 from './header-icon6.png'
 
 const LeftSide = () =>{
     return(
-        <div>
+        <div className="leftSide">
             <div className="socialIcons">
                 <a href=""><img src={icon1} alt=""></img></a>
                 <a href=""><img src={icon2} alt=""></img></a>
