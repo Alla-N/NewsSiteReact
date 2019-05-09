@@ -41,7 +41,6 @@ a{
 	text-transform: uppercase;
 	display: block;
 	height: 40px;
-	vertical-align: middle;
 	float: left;
 }
 .signIn, .language {
@@ -307,14 +306,30 @@ div.headerNavMenu>ul>li>a:only-child{
 .foolSize{
 	background-color: white;
 	margin-bottom: 15px;
+	position: relative;
 }
 
 .foolSize a{
-	color:white;
+	color:black;
 }
 
-.foolSize>div h3,p{
+.foolSize>div, h3,p{
 	margin: 15px;
+}
+
+.foolSize img{
+	max-width: 100%;
+}
+
+.foolSize>button, .horizontalNews button, .verticalNews button{
+	position: absolute;
+	right:15px;
+	bottom: 15px;
+	border: none;
+	outline: none;
+	background:none;
+	cursor: pointer;
+	
 }
 
 .authorVideo{
@@ -336,19 +351,10 @@ div.headerNavMenu>ul>li>a:only-child{
 
 .authorVideo img{
 	float: left;
-	margin-right: 15px;
+	
 }
 
-.authorVideo button{
-	border: none;
-	outline: none;
-	background:none;
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-	cursor: pointer;
-	width: 5px;
-}
+
 
 .horizontal a{
 	color:black;
@@ -364,6 +370,7 @@ div.headerNavMenu>ul>li>a:only-child{
 	background-color: white;
 	min-height: 170px;
 	margin-bottom: 15px;
+	position: relative;
 }
 
 .horizontalNews iframe{
@@ -371,6 +378,12 @@ div.headerNavMenu>ul>li>a:only-child{
 	max-height: 100%;
 	width: 100%;
 }
+
+.horizontalNews>img{
+	height: 100%;
+	max-width: 100%;
+}
+
 
 .videoDescription{
 	padding: 15px;
@@ -392,9 +405,14 @@ div.headerNavMenu>ul>li>a:only-child{
 	opacity: 0.7;
 }
 
-.verticalNews, .verticalNews iframe{
+.verticalNews{
+	
+	position: relative;
+}
+
+.verticalNews>img{
 	max-width: 100%;
-	min-width: 100%;
+	
 }
 
 /* --------------------aside----------------- */
@@ -755,7 +773,6 @@ color: darkblue;
 		display: block;
 		height: 30px;
 		line-height: 30px;
-		vertical-align: middle;
 		min-width: 140px;
 		max-width: 180px;
 		padding: 0;
@@ -777,6 +794,8 @@ color: darkblue;
 	grid-template-columns: 1fr;
 
 }
+
+
 
 .footerSubscribe h2{
 	font-size: 35px;

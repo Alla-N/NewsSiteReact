@@ -27,7 +27,7 @@ const HeaderSlider = () =>{
                 <div className="author">
                     <div className="authorPhoto"><img src={author} alt="" /></div>
                     <a href=""><p>Henry Little</p></a>
-                    <div><input type="data" value="April 28, 2016 10:15" className="postData" /></div>
+                    <div><input type="data" value="April 28, 2016 10:15" readOnly className="postData" /></div>
                     <div className="comentsLikes">
                         <div>
                             <img src={forum} alt="" />

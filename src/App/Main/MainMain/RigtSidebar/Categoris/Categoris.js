@@ -4,7 +4,7 @@ import React from 'react';
 const Categoris = () =>{
     return(
         <div className='categoris'>
-            <div class="sideBarTitle">
+            <div className="sideBarTitle">
                 <h3>
                     Categoris
 				</h3>

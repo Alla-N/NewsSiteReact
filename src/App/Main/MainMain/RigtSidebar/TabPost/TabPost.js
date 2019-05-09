@@ -18,10 +18,10 @@ const TabPost = () =>{
             </div>
             <div className="sideBarBlocks">
                 <input type="radio" name="odin" checked="checked" id="vkl1"></input> 
-                <label for="vkl1">Recent post</label>
+                <label htmlFor="vkl1">Recent post</label>
 
                 <input type="radio" name="odin" id="vkl2"></input>
-                <label for="vkl2">popular post</label>
+                <label htmlFor="vkl2">popular post</label>
                 <div>
                     <div className="tabPostBlocks">
                         <img src={side1} alt=""></img>
@@ -33,7 +33,7 @@ const TabPost = () =>{
                         <p> April 28, 2016 </p>
                         <a href=""><h4>Duis commodo</h4></a>
                     </div>
-                    <div class="tabPostBlocks">
+                    <div className="tabPostBlocks">
                         <img src={side3} alt="" />
                         <p> April 28, 2016 </p>
                         <a href=""><h4>Duis commodo</h4></a>

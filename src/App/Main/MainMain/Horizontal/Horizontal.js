@@ -5,7 +5,7 @@ import HorizontalNews from './HorizontalNews/HorizontalNews.js';
 
 const Horizontal = () =>{
     return (
-        <div className='horisontal'>
+        <div className='horizontal'>
             <HorizontalNews />
             <HorizontalNews />
             <HorizontalNews />

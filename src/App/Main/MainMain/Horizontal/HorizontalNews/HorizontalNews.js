@@ -2,18 +2,13 @@ import React from 'react';
 
 import author from './author.png';
 import more from './more_vert.png';
+import horizontal from './horizontal_img.jpg'
 
 
 const HorizontalNews = () =>{
     return(
         <div className='horizontalNews'>
-            <iframe 
-            src="https://www.youtube.com/embed/2mlZFar2iLA" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-
-            </iframe>
+            <img src={horizontal}></img>
             <div className="videoDescription">
                 <div>
                     <a href="">
@@ -29,8 +24,9 @@ const HorizontalNews = () =>{
                     <a href=""><span>Evan Carmichael</span></a>
                     <br />
                     <input type="data" value="April 28, 2016 10:15" className="postData" />
-                    <button><img src={more} alt="" /></button>
+                    
                 </div>
+                <button><img src={more} alt="" /></button>
             </div>
 
         </div>

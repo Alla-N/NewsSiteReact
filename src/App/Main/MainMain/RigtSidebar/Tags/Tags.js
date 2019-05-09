@@ -4,7 +4,7 @@ import React from 'react';
 const Tags = () =>{
     return(
         <div className='tags'>
-            <div class="sideBarTitle">
+            <div className="sideBarTitle">
                 <h3>
                     Tags
 				</h3>

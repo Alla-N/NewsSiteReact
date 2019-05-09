@@ -2,19 +2,14 @@ import React from 'react';
 
 import author from './author.png';
 import more from './more_vert.png';
+import vertical from './vertical_img.jpg'
 
 
 
 const VerticalNews = () =>{
     return(
         <div className='verticalNews'>
-            <iframe 
-            src="https://www.youtube.com/embed/_eNdPmvKgtw" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-            
-            </iframe>
+            <img src={vertical} alt=''></img>
             <div className="videoDescription">
                 <div>
                     <a href="">
@@ -30,8 +25,9 @@ const VerticalNews = () =>{
                     <a href=""><span>Evan Carmichael</span></a>
                     <br />
                     <input type="data" value="April 28, 2016 10:15" className="postData" />
-                    <button><img src={more} alt="" /></button>
+                    
                 </div>
+                <button><img src={more} alt="" /></button>
             </div>
         </div>
     )
