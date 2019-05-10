@@ -303,25 +303,25 @@ div.headerNavMenu>ul>li>a:only-child{
 	color: black;
 }
 
-.foolSize{
+.fullSize{
 	background-color: white;
 	margin-bottom: 15px;
 	position: relative;
 }
 
-.foolSize a{
+.fullSize a{
 	color:black;
 }
 
-.foolSize>div, h3,p{
+.fullSize>div, h3,p{
 	margin: 15px;
 }
 
-.foolSize img{
+.fullSize>img{
 	max-width: 100%;
 }
 
-.foolSize>button, .horizontalNews button, .verticalNews button{
+.fullSize>button, .horizontalNews button, .verticalNews button{
 	position: absolute;
 	right:15px;
 	bottom: 15px;

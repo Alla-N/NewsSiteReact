@@ -1,18 +1,19 @@
 import React from 'react';
 
-import FoolSize from './FoolSize/FoolSize.js';
+import FullSize from './FullSize/FullSize.js';
+// import FullSizeNews from './FullSize/FullSizeNews/FullSizeNews.js';
 import Horizontal from './Horizontal/Horizontal.js';
 import Vertical from './Vertical/Vertical.js';
 import RigtSidebar from './RigtSidebar/RigtSidebar.js';
 
 
-const Main = () =>{
+const MainMain = () =>{
     return(
         <div className='main'>
             <div className="conteiner">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-                        <FoolSize />
+                        <FullSize />
                         <Horizontal />
                         <Vertical />
                     </div>
@@ -26,4 +27,4 @@ const Main = () =>{
     )
 }
 
-export default Main;
+export default MainMain;

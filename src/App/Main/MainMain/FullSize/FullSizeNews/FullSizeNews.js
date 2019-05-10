@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
-import more from './../more_vert.png';
+import more from '../more_vert.png';
 
 
-class FoolSizeNews extends Component{
+class FullSizeNews extends Component{
 
 render(){
     const {
@@ -18,7 +18,7 @@ render(){
 
 
     return(
-        <div className='foolSize'>
+        <div className='fullSize'>
             <img src={image} alt=''></img>
             <a href=""> <h3>{title}</h3>  </a>
             <p>{shortDescription}</p>
@@ -36,4 +36,4 @@ render(){
 }
 
 
-export default FoolSizeNews;
+export default FullSizeNews;
