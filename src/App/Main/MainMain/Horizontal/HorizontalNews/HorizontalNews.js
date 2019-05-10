@@ -1,29 +1,34 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-import author from './author.png';
 import more from './more_vert.png';
-import horizontal from './horizontal_img.jpg'
 
 
-const HorizontalNews = () =>{
+
+class HorizontalNews extends Component {
+    render(){
+        const {
+            image,
+            title,
+            shortDescription,
+            authorImage,
+            authorName,
+            dataPost,
+    
+        } = this.props;
+
     return(
         <div className='horizontalNews'>
-            <img src={horizontal}></img>
+            <img src={image}></img>
             <div className="videoDescription">
                 <div>
-                    <a href="">
-                        <h3>	The 5 LESSONS In Life People Learn TOO LATE</h3>
-                    </a>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Quos ad cupiditate quam id! Doloribus excepturi soluta maiores ullam.
-					</p>
+                    <a href=""> <h3>{title}</h3>  </a>
+                    <p> {shortDescription} </p>
                 </div>
                 <div className="authorVideo">
-                    <img src={author} alt="" />
-                    <a href=""><span>Evan Carmichael</span></a>
+                    <img src={authorImage} alt="" />
+                    <a href=""><span>{authorName}</span></a>
                     <br />
-                    <input type="data" value="April 28, 2016 10:15" className="postData" />
+                    <input type="data" value={dataPost} className="postData" />
                     
                 </div>
                 <button><img src={more} alt="" /></button>
@@ -31,6 +36,7 @@ const HorizontalNews = () =>{
 
         </div>
     )
+}
 }
 
 export default HorizontalNews;
