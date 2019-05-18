@@ -17,7 +17,7 @@ const TabPost = () =>{
 				</h3>
             </div>
             <div className="sideBarBlocks">
-                <input type="radio" name="odin" checked="checked" id="vkl1"></input> 
+                <input type="radio" name="odin" defaultChecked="checked" id="vkl1"></input> 
                 <label htmlFor="vkl1">Recent post</label>
 
                 <input type="radio" name="odin" id="vkl2"></input>

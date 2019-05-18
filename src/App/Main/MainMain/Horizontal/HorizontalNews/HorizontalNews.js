@@ -28,7 +28,7 @@ class HorizontalNews extends Component {
                     <img src={authorImage} alt="" />
                     <a href=""><span>{authorName}</span></a>
                     <br />
-                    <input type="data" value={dataPost} className="postData" />
+                    <input type="data" defaultValue={dataPost} className="postData" />
                     
                 </div>
                 <button><img src={more} alt="" /></button>

@@ -5,12 +5,13 @@ import FullSizeNews from './FullSizeNews/FullSizeNews.js'
 import news from '../news.js'
 
 
+
 const FullSize = () =>{
     return(      
         <div> 
             {
                 
-            news.slice(0,1).map(({
+            news.filter(news=>news.topNews===true).map(({
                 id,
                 image,
                 title,

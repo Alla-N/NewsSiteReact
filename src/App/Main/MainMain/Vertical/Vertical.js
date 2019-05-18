@@ -5,12 +5,13 @@ import news from '../news.js'
 import VerticalNews from './VerticalNews/VerticalNews.js';
 
 
-const Vertical = () =>{
+const Vertical = ({filterParameter}) =>{
+
+
     return(
         <div className='vertical'>
-            {
-                
-                news.slice(4).map(({
+            {                
+                (filterParameter === 'all' ? news : news.filter(news=>news.tag==filterParameter)).map(({
                     id,
                     image,
                     title,
