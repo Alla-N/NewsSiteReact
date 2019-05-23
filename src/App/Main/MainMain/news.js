@@ -7,13 +7,18 @@ const news=[
     tag:'lifestyle',
     image:'/images/fullsize_img.jpg',
     title: '10 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change.\
      We cannot avoid it and the more we resist change the tougher our life becomes.\
       I know this because I was very skilled at deflecting change in life.',
     
-    
+    authorImage:'/images/author.png',
+    authorName:'Evan Carmichael',
+    dataPost:'April 28, 2016 10:15',
+    topNews:true,
+    tagTopNews:true,
     fullDescription: 
-        <div className='fullPageNews'> 
+        <div> 
     <h1>10 skills that are hard to learn but pay off forever</h1>
     <figure>
         <p><img src='/images/fullPageNews/news1-1.jpg' alt='not found'></img></p>
@@ -67,17 +72,6 @@ const news=[
     <p>To do what you want to do and accomplish what you want to accomplish, you need to consciously direct your thinking, writes Mark Givert.</p>
     <p>"The challenge is that we are the product of our past experience and all of our thinking is the result of this," he says. "However, the past does not equal the future."</p>
         </div>
-    
-    ,
-
-
-
-
-    
-    authorImage:'/images/author.png',
-    authorName:'Evan Carmichael',
-    dataPost:'April 28, 2016 10:15',
-    topNews:true,
         
 }
 ,
@@ -89,13 +83,115 @@ const news=[
     shortDescription:'What are the lessons people most often learn too late in life?"\
      originally appeared on Quora--the place to gain and share knowledge,\
       empowering people to learn from others and better understand the world.',
-
-
-    fullDescription:'',
-    
+      
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'May 15, 2018 08:30',
+    topNews:false,
+    tagTopNews:true,
+
+    fullDescription:
+    <div> 
+    <h1>5 Lessons Most People Learn Way Too Late in Life</h1>
+    <figure>
+        <p><img src='/images/fullPageNews/news2-1.jpg' alt='not found'></img></p>
+        <figcaption>The first step to listening: stop talking.</figcaption>
+    </figure>
+    <p>"What are the lessons people most often learn too late in life?" 
+    originally appeared on Quora--the place to gain and share knowledge, empowering people 
+    to learn from others and better understand the world.</p>
+    <p>Answer by Alyssa Satara, co-founder at Refugee Code Academy, on Quora:</p>
+    <h2>1. Perception is reality</h2>
+    <p>It's true. The way you interpret and understand the world directly affects your 
+    beliefs and the way you live your life. Perception creates bias as much as it creates 
+    understanding. It creates fear as much as it creates curiosity.</p>
+    <p>Do you want your reality to be narrow or vast?</p>
+    <p>Will the bliss that ignorance provides be sufficient, or do you need more?</p>
+    <p>The truth is most people want more. Even if it is on a subconscious level. 
+    Humans tend to trail blaze. From cradle to the grave, our society emphasizes the 
+    importance of education. Learning and discovering is what we do, but still it is 
+    increasingly hard to understand what you don't understand.</p>
+    <p>So how do you learn to know what you don't know? Start by asking yourself:
+     What don't I know? What do you want to learn more about?</p>
+     <p>Most importantly, understand that it's OK to be wrong. In error there is growth.</p>
+     <h2>2. Everything is temporary</h2>
+     <p>Your good times are temporary and your bad times are temporary. 
+     So when you're up, enjoy it, bask in it, and be grateful for it. 
+     And when you're down, know you will get through it. Know that it's not the end, 
+     and that it's just a rough patch. Life is full of twists and turns, ups and downs, 
+     and surprises.</p>
+     <p>We forget that it's about the journey not the destination.</p>
+     <p>There is a lesson in everything. I think it's hard for a lot of people--especially 
+     young people--to appreciate life. Recognizing the full worth of your hardships and 
+     your blunders is key to appreciating the journey. It's just as important to stay humble 
+     and be grateful for the joys life brings you.</p>
+     <p>Everything is temporary, so make the most out of all of it.</p>
+    <h2>3. The importance of being present</h2>
+    <p>"If you are depressed, you are living in the past. If you are anxious, you are 
+    living in the future. If you are at peace, you are living in the present." --Lao Tzu</p>
+    <p>More often than not, we tend to worry about what's to come, or dwell on 
+    something that's already happened. While it's crucial to care and consider your 
+    future, be careful not to let it hinder your present. Moments turn into memories. 
+    Enjoy the moment while you have it.</p>
+    <p>It usually takes a lifetime of piled up worries for a person to realize: 
+    Worrying isn't productive.</p>
+    <p>Living in the past is equally unproductive. There are definitely benefits in 
+    being able to reflect on yourself and on your past. Paying attention to what you've 
+    been through and how that makes you feel matters. It takes a lot of emotional energy 
+    to grieve, process, and overcome.</p>
+    <p>The balance of being able to take time to reflect, and to prioritize your future 
+    while spending the majority of your day in the present, is beyond valuable, it's life 
+    changing.</p>
+    <h2>4. Do what you love, love what you do</h2>
+    <p>There was a huge mosaic near my university in London that said that those words. 
+    I was grateful to walk past it almost every day and remind myself of the importance of 
+    loving your career and loving what you do. Your work is a considerably large aspect in 
+    your life that you dedicate yourself to. If you aren't happy in your career, that 
+    unhappiness will seep into other aspects of your life. And while nothing is perfect, 
+    it's important to work on yourself and position yourself to reach the goals and 
+    satisfactions you desire.</p>
+    <p>Most importantly: Invest in yourself.</p>
+    <p>This goes for your non-work life, too. What habits and hobbies do you want to stop? 
+    Which ones do you want to develop? It's important to be conscious of the type of people 
+    and activities you surround yourself with. Information is like nutrients to your brain, 
+    be aware of what you are feeding yourself. Success isn't one triumphant moment. Success 
+    is a series of moments (and choices) leading up to bigger moments.</p>
+    <p>You are the only person who can get in the way of living every day doing what you love.</p>
+    <p>Bob Dylan said it best when he said "What's money? A man is a success if he gets 
+    up in the morning and goes to bed at night and in between does what he wants to do."</p>
+    <h2>5. Being happy takes work</h2>
+    <p>The happiest people tend to be the ones who've worked the most on themselves. 
+    Being happy takes a lot of work. It's just as much work--if not more-- to be unhappy. 
+    So choose wisely. Being happy means at some point you decided to take control of your life.
+     It means you decided to not be a victim and to put that energy back into yourself. 
+     Sometimes it's hard, but you have to pull yourself up and push yourself forward.</p>
+     <p>Your lifetime is a series of developments and personal growth.</p>
+     <p>One of the worst things you can do for self-development is comparing yourself 
+     to other people. It's easy to get caught up in jealousy and wanting what other people 
+     have. Especially with the way we interact with social media. You have to remember that 
+     people tend to show only the best parts of their lives on those platforms. It's not fair 
+     to yourself when you see that and think "I want to do that" or "I want to look like that". 
+     Not only does that distract you from being appreciative of what you have in our own life, 
+     it doesn't provide any productive input to yourself. Most often, your perception of 
+     someone's life is a fallacy. And even if it isn't, focus on yourself. It's your journey 
+     and your path that you should be concerned with.</p>
+     <p>Being happy takes practice. Whether it's you learning to 
+     let go of your ego, or forming more self-loving habits...it takes practice. 
+     You only have one life, work as hard as you can to make it your best life.</p>
+     <p>This question originally appeared on Quora--the place to gain and share 
+     knowledge, empowering people to learn from others and better understand the world. 
+     You can follow Quora on Twitter, Facebook, and Google+. More questions:</p>
+     <ul>
+         <li>Career Advice: What's the single most valuable lesson you've 
+         learned in your professional life?</li>
+         <li>Life Lessons: What are the most difficult and useful things 
+         people have to learn in their 20s?</li>
+         <li>Motivation: How do successful people conquer challenges?</li>
+     </ul>
+     
+    </div>,
+    
+
     
     
 }
@@ -105,17 +201,20 @@ const news=[
     tag:'lifestyle',
     image:'/images/horizontal_img2.jpg',
     title: '10 amazing habits you must adopt in 2019!',
+
     shortDescription:'The achievement of any important goal is enabled by\
      choosing new behaviours every day – their combined effect will lead to\
       that magic moment when you will say; ‘Wow, I have done it!’.',
 
-
-    fullDescription:'',
-    
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'October 10, 2017 09:45',
-    
+
+    topNews:false,
+    tagTopNews:false,
+
+    fullDescription:'',
+       
     
 }
 ,
@@ -126,13 +225,14 @@ const news=[
     title: 'End LAZINESS Motivation',
     shortDescription:'Work as TWICE as HARD as Others ...',
 
-
-    fullDescription:'',
-    
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'June 03, 2018 10:00',
-    
+
+    topNews:false,
+    tagTopNews:false,
+
+    fullDescription:'', 
     
 }
 ,
@@ -141,17 +241,21 @@ const news=[
     tag:'business',
     image:'/images/vertical_img.jpg',
     title: 'Develop an Insane WORK ETHIC',
+
     shortDescription:'Everybody’s mind works differently.\
      This is not a universal guide, in any way, and should be treated as mere\
       pondering of the writer.',
 
+    topNews:false,
+    tagTopNews:true,
 
-    fullDescription:'',
-    
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'July 14, 2018 12:20',
-    
+
+
+    fullDescription:'',
+     
     
 }
 ,
@@ -160,15 +264,18 @@ const news=[
     tag:'lifestyle',
     image:'/images/vertical_img2.jpg',
     title:"Don't Focus on the MONEY ",
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
 
-    
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
     
+    fullDescription:'',
+  
     
 }
 ,
@@ -177,14 +284,18 @@ const news=[
     tag:'lifestyle',
     image:'/images/fullsize_img.jpg',
     title: '70 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
+
+    fullDescription:'',
+     
     
 }
 ,
@@ -193,62 +304,74 @@ const news=[
     tag:'lifestyle',
     image:'/images/fullsize_img.jpg',
     title: '80 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
+
+    fullDescription:'', 
     
 }
 ,
 {
     id:9,
-    tag:'lifestyle',
+    tag:'trip',
     image:'/images/fullsize_img.jpg',
     title: '90 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
-    
+
+    fullDescription:'',
+  
 }
 ,
 {
     id:10,
-    tag:'lifestyle',
+    tag:'trip',
     image:'/images/fullsize_img.jpg',
     title: '100 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
+
+    fullDescription:'',  
     
 }
 ,
 {
     id:11,
-    tag:'lifestyle',
+    tag:'trip',
     image:'/images/fullsize_img.jpg',
     title: '110 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
+
+    fullDescription:'',
     
 }
 ,
@@ -257,13 +380,19 @@ const news=[
     tag:'trip',
     image:'/images/fullsize_img.jpg',
     title: '120 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:true,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
+    
+
+    fullDescription:'',
+    
     
     
 }
@@ -273,15 +402,17 @@ const news=[
     tag:'inspiration',
     image:'/images/fullsize_img.jpg',
     title: '130 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
-    
+
+    fullDescription:'',  
 }
 ,
 {
@@ -289,14 +420,17 @@ const news=[
     tag:'business',
     image:'/images/fullsize_img.jpg',
     title: '140 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
+
+    fullDescription:'', 
     
 }
 ,
@@ -305,14 +439,17 @@ const news=[
     tag:'business',
     image:'/images/fullsize_img.jpg',
     title: '150 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
+
+    fullDescription:'',
     
 }
 ,
@@ -321,16 +458,20 @@ const news=[
     tag:'lifestyle',
     image:'/images/fullsize_img.jpg',
     title: '160 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    fullDescription:'',
-    
+    topNews:false,
+    tagTopNews:false,
+
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
-    
-    
+
+    fullDescription:'',
+  
 }
 ];
+
 
 export default news

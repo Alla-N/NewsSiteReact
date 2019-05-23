@@ -1,17 +1,37 @@
-import React from 'react';
+import React,{Component} from 'react';
 
 import news from '../news.js'
 
 import VerticalNews from './VerticalNews/VerticalNews.js';
 
 
-const Vertical = ({filterParameter}) =>{
+class Vertical extends Component {
 
+   
+    
+    state = {
+        itemsToShow: 9,
+    }
+
+    showMoreNews = () => {
+
+        this.setState((prevState) =>  ({
+
+            itemsToShow: prevState.itemsToShow+3,
+
+        }));
+
+    }
+
+render (){
+
+    const filterParameter = this.props.filterParameter;
 
     return(
+        <div>
         <div className='vertical'>
             {                
-                (filterParameter === 'all' ? news : news.filter(news=>news.tag==filterParameter)).map(({
+                (filterParameter === 'all' ? news : news.filter(news=>news.tag==filterParameter).filter(news=>news.tagTopNews===false)).slice(3,this.state.itemsToShow).map(({
                     id,
                     image,
                     title,
@@ -29,6 +49,7 @@ const Vertical = ({filterParameter}) =>{
                             authorImage={authorImage}
                             authorName={authorName}
                             dataPost={dataPost}
+                            id={id}
                         />
                     </div>
                     
@@ -36,7 +57,13 @@ const Vertical = ({filterParameter}) =>{
                 })   
             }
         </div>
+        <div className="showmoreButton">
+            <button onClick = {() => this.showMoreNews() }>
+                Show more
+			</button>
+        </div>
+        </div>
     )
-}
+}}
 
 export default Vertical;

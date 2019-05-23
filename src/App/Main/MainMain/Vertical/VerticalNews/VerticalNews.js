@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-
+import {Link} from 'react-router-dom';
 import more from './more_vert.png';
 
 
@@ -7,6 +7,7 @@ import more from './more_vert.png';
 class VerticalNews extends Component{
     render(){
         const {
+            id,
             image,
             title,
             shortDescription,
@@ -31,7 +32,7 @@ class VerticalNews extends Component{
                     <input type="data" defaultValue={dataPost} className="postData" />
                     
                 </div>
-                <button><img src={more} alt="" /></button>
+                <button><Link to={`/news/${id}`}><img src={more} alt="" title='Read more' /></Link></button>
             </div>
         </div>
     )

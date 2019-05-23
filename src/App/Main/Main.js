@@ -27,12 +27,12 @@ class Main extends Component {
 
    
     render(){
-        console.log(this.state)
 
         return(
         <div>
             <MainHeader 
             filterNews={this.filterNews} />
+            
             <MainMain 
             filterParameter={this.state.filter}
             />

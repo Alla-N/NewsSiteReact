@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+*, div, .row{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+a{
+	text-decoration: none;
+	-moz-user-select: text;
+}
+
+
+.fullPageNews{
+	width: 90%;
+    margin: 0 auto;
+}
+.fullPageNews h1{
+	text-align: center;
+	margin: 30px auto;
+	color: red;
+}
+
+.fullPageNews h2{
+	text-align: center;
+	margin: 20px auto;
+}
+
+.fullPageNews figure{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.fullPageNews figure p{
+	text-align: center;
+	
+}
+
+.fullPageNews figcaption{
+	font-weight: bolder;
+	margin-left: 20px;
+	font-style: italic;
+	font-size: 80%;
+	text-align: center;
+}
+
+
+
+
+
+/* ---------button---------- */
+.returnButton {
+	width: 190px;
+	height: 60px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.returnButton button {
+	width: 170px;
+	height: 40px;
+	background-color: #303f9f;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.returnButton button:hover{
+	color: rgba(255,255,255,0.7);
+}

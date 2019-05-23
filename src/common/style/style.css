@@ -309,8 +309,13 @@ div.headerNavMenu>ul>li>a:only-child{
 	color:black;
 }
 
+.fullSize a:hover, .fullSize a:hover h3{
+	opacity: 0.7;
+}
+
 .fullSize>div, h3,p{
 	margin: 15px;
+	padding: 10px;
 }
 
 .fullSize>img{
@@ -333,7 +338,7 @@ div.headerNavMenu>ul>li>a:only-child{
 	vertical-align: middle;
 	padding-top: 15px;
 	text-indent: 15px;
-	min-height: 65px;
+	min-height: 70px;
 	position: relative;
 }
 
@@ -409,6 +414,29 @@ div.headerNavMenu>ul>li>a:only-child{
 .verticalNews>img{
 	max-width: 100%;
 	
+}
+
+.showmoreButton {
+	width: 190px;
+	height: 70px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.showmoreButton button {
+	width: 170px;
+	height: 50px;
+	background-color: #303f9f;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.showmoreButton button:hover{
+	color: rgba(255,255,255,0.7);
 }
 
 /* --------------------aside----------------- */

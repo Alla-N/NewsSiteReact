@@ -8,7 +8,7 @@ import FooterSubscribe from './FooterSubscribe/FooterSubscribe.js'
 const Footer = () =>{
     return(
         <div>
-            <FotoSlider />
+            {/* <FotoSlider /> */}
             <FooterSubscribe />
         </div>
     )

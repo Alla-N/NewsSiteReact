@@ -1,4 +1,5 @@
 import React from 'react';
+import {Route} from 'react-router-dom'
 
 import './../common/style/style.css'
 import './../common/style/styleFlex.css'
@@ -6,13 +7,18 @@ import './../common/style/styleFlex.css'
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
+import FullPageNews from './Main/MainMain/FullPageNews'
 
 
 const App = () =>{
   return(
+
     <div>
       <Header />
-      <Main/>
+      <Route exact path = '/' component = {Main}></Route>
+      <Route 
+      path = '/news'
+      render = {props=><FullPageNews {...props}/>}></Route>
       <Footer />
     </div>
   )

@@ -39,7 +39,7 @@ const Header = () =>{
                 </div>
             </div>
             <div>
-                <HeaderSlider />
+                {/* <HeaderSlider /> */}
             </div>
         </div>
     )

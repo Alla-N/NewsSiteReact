@@ -6,12 +6,11 @@ import news from '../news.js'
 
 
 
-const FullSize = () =>{
+const FullSize = ({filterParameter}) =>{
     return(      
         <div> 
-            {
-                
-            news.filter(news=>news.topNews===true).map(({
+            {   
+                (filterParameter === 'all' ? news.filter(news=>news.topNews===true) : news.filter(news=>news.tag==filterParameter).filter(news=>news.tagTopNews===true)).map(({
                 id,
                 image,
                 title,
@@ -29,7 +28,9 @@ const FullSize = () =>{
                         authorImage={authorImage}
                         authorName={authorName}
                         dataPost={dataPost}
+                        id={id}
                     />
+
                 </div>
                 
             )

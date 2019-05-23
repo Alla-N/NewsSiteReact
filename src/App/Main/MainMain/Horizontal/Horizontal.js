@@ -5,12 +5,12 @@ import news from '../news.js'
 import HorizontalNews from './HorizontalNews/HorizontalNews.js';
 
 
-const Horizontal = () =>{
+const Horizontal = ({filterParameter}) =>{
     return (
         <div className='horizontal'>
             {
                 
-                news.slice(1,4).map(({
+                (filterParameter === 'all' ? news.filter(news=>news.topNews===false) : news.filter(news=>news.tag===filterParameter).filter(news=>news.tagTopNews===false)).slice(0,3).map(({
                     id,
                     image,
                     title,
@@ -28,6 +28,7 @@ const Horizontal = () =>{
                             authorImage={authorImage}
                             authorName={authorName}
                             dataPost={dataPost}
+                            id={id}
                         />
                     </div>
                     
