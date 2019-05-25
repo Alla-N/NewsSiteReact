@@ -17,7 +17,7 @@ const App = () =>{
       <Header />
       <Route exact path = '/' component = {Main}></Route>
       <Route 
-      path = '/news'
+      path = '/news/:id'
       render = {props=><FullPageNews {...props}/>}></Route>
       <Footer />
     </div>

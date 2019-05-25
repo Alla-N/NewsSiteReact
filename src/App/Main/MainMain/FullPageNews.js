@@ -5,22 +5,25 @@ import news from './news'
 
 class FullPageNews extends Component {
     render(){
-    let prodId = this.props.location.pathname.split('/');
-    prodId = prodId[prodId.length-1];
+    // let prodId = this.props.location.pathname.split('/');
+    
+    // prodId = prodId[prodId.length-1];
+
+    let newsId = this.props.match.params.id;
 
     console.log (this.props)
-    console.log(prodId)
+    console.log(newsId)
    
     
     let newsOne;
     for(var i=0; i<news.length; i++){
-        if(news[i].id==prodId){
+        if(news[i].id==newsId){
             newsOne = news[i];
             break;
         }
     }
     if(newsOne===undefined)
-        return <h2>Страница не найдена</h2>;
+        return <h2>Page not found</h2>;
     else
 
         return (
