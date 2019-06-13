@@ -15,20 +15,30 @@ a{
 
 .fullPageNews{
 	width: 90%;
-    margin: 0 auto;
+	margin: 0 auto;
+	font-family: Montserrat,sans-serif;
 }
 .fullPageNews h1{
 	text-align: center;
 	margin: 30px auto;
-	color: red;
+	color:black;
 }
 
-.fullPageNews h2{
+.fullPageNews ol, ul{
+	margin-left: 65px;
+}
+
+.fullPageNews h2,h3{
 	text-align: center;
 	margin: 20px auto;
 }
 
 .fullPageNews figure{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.fullPageNews figure img{
 	max-width: 80%;
 	margin: 0 auto;
 }

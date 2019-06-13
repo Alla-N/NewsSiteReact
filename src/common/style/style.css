@@ -299,6 +299,40 @@ div.headerNavMenu>ul>li>a:only-child{
 }
 
 
+div.verticalNews>button.likeButton, div.horizontalNews>button.likeButton, div.fullSize>button.likeButton {
+	position: absolute;
+	top:0;
+	right: 10px;
+	height: 25px;
+	width: 25px;
+}
+
+
+
+div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div, div.fullSize>button.likeButton>div {
+	font-size: 30px;
+	color:red;
+}
+
+.fullPageNews>button.likeButton{
+	position: absolute;
+	top:140px;
+	right: 70px;
+	height: 25px;
+	width: 25px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	background: none;
+	
+}
+
+.fullPageNews>button.likeButton>div{
+	font-size: 30px;
+	color:red;
+}
+
+
 .fullSize{
 	background-color: white;
 	margin-bottom: 15px;
@@ -320,6 +354,8 @@ div.headerNavMenu>ul>li>a:only-child{
 
 .fullSize>img{
 	max-width: 100%;
+	min-width: 100%;
+	max-height: 400px;
 }
 
 .fullSize>button, .horizontalNews button, .verticalNews button{
@@ -389,7 +425,17 @@ div.headerNavMenu>ul>li>a:only-child{
 .videoDescription{
 	padding: 15px;
 	background-color: white;
+	
 }
+
+.videoDescriptionShortText{
+	height: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 15px;
+	line-height: 26px;
+}
+
 
 .vertical{
 	display: grid;
@@ -407,20 +453,23 @@ div.headerNavMenu>ul>li>a:only-child{
 }
 
 .verticalNews{
-	
 	position: relative;
 }
 
 .verticalNews>img{
+	width: 100%;
 	max-width: 100%;
+	max-height: 200px;
+	min-height: 200px;
+	
 	
 }
 
 .showmoreButton {
 	width: 190px;
 	height: 70px;
-	padding: 20px;
-	margin: 0 auto;
+	/* padding: 20px; */
+	margin: 15px auto;
 }
 
 .showmoreButton button {

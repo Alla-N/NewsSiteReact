@@ -10,7 +10,7 @@ class Vertical extends Component {
    
     
     state = {
-        itemsToShow: 9,
+        itemsToShow: 10,
     }
 
     showMoreNews = () => {
@@ -27,11 +27,12 @@ render (){
 
     const filterParameter = this.props.filterParameter;
 
+
     return(
         <div>
         <div className='vertical'>
             {                
-                (filterParameter === 'all' ? news : news.filter(news=>news.tag==filterParameter).filter(news=>news.tagTopNews===false)).slice(3,this.state.itemsToShow).map(({
+                (filterParameter === 'all' ? news : news.filter(news=>news.tag==filterParameter).filter(news=>news.tagTopNews===false)).slice(4,this.state.itemsToShow).map(({
                     id,
                     image,
                     title,

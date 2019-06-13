@@ -7,7 +7,8 @@ import './../common/style/styleFlex.css'
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
-import FullPageNews from './Main/MainMain/FullPageNews'
+import FullPageNews from './Tabs/FullPageNews/FullPageNews'
+import Favorites from './Tabs/Favorites/Favorites'
 
 
 const App = () =>{
@@ -19,6 +20,9 @@ const App = () =>{
       <Route 
       path = '/news/:id'
       render = {props=><FullPageNews {...props}/>}></Route>
+      <Route 
+      path = '/favorites'
+      component = {Favorites}></Route>
       <Footer />
     </div>
   )
