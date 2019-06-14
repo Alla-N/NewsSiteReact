@@ -39,6 +39,7 @@ render (){
     console.log(newsMap);
 
     return(
+        <div className='main'>
         <div className='container'>
         <div className='row'>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -70,6 +71,8 @@ render (){
         </div>
         </div>
         </div>
+        </div>
+        
     )
 }}
 

@@ -15,7 +15,9 @@ const App = () =>{
   return(
 
     <div>
-      <Header />
+      <div className='headerPosition'>
+        <Header />
+      </div>
       <Route exact path = '/' component = {Main}></Route>
       <Route 
       path = '/news/:id'
