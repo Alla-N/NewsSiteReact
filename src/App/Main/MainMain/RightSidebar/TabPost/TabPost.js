@@ -26,44 +26,44 @@ const TabPost = () =>{
                     <div className="tabPostBlocks">
                         <img src={side1} alt=""></img>
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                     <div className="tabPostBlocks">
                         <img src={side2} alt="" />
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
                     </div>
                     <div className="tabPostBlocks">
                         <img src={side3} alt="" />
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                     <div className="tabPostBlocks">
                         <img src={side4} alt="" />
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                 </div>
                 <div>
                     <div className="tabPostBlocks">
                         <img src={side3} alt=""/>
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                     <div className="tabPostBlocks">
                         <img src={side1} alt="" />
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                     <div className="tabPostBlocks">
                         <img src={side4} alt="" />
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                     <div className="tabPostBlocks">
                         <img src={side2} alt="" />
                         <p> April 28, 2016 </p>
-                        <a href=""><h4>Duis commodo</h4></a>
+                        <a href="#/"><h4>Lorem ipsum</h4></a>
 					</div>
                 </div>
             </div>

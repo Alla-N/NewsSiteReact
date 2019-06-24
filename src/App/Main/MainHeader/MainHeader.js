@@ -11,7 +11,7 @@ class MainHeader extends Component{
 
     return(
         <div>
-            <div className="conteiner">
+            <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                         <div className="sortBlog">Sort blog:</div>
@@ -28,7 +28,7 @@ class MainHeader extends Component{
                     <div className="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                         <div className="sortBlog"><button onClick={()=>filterNews('trip')}>Trip</button></div>
                     </div>
-                    <div classv="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                         <div className="sortBlog"><button onClick={()=>filterNews('inspiration')}>Inspiration</button></div>
                     </div>
                 </div>

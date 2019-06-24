@@ -5,14 +5,14 @@ import RightSide from './RightSide/RightSide.js'
 import Logo from './Logo/Logo.js'
 import HeaderNavMenu from './HeaderNavMenu/HeaderNavMenu.js'
 import NavButtons from './NavButtons/NavButtons.js'
-import HeaderSlider from './HeaderSlider/HeaderSlider.js'
+
 
 
 const Header = () =>{
     return(
         <div>
             <div className="headerBlock">
-                <div className="conteiner">
+                <div className="container">
                     <div className="row">
                         <div className="col-xs-12 col-sm-6 col-md-8 col-lg-9">
                             <LeftSide/>
@@ -24,7 +24,7 @@ const Header = () =>{
                 </div>
             </div>
             <div className="header">
-			    <div className="conteiner">
+			    <div className="container">
 				    <div className="row">
 					    <div className="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                             <Logo/>
@@ -37,9 +37,6 @@ const Header = () =>{
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                {/* <HeaderSlider /> */}
             </div>
         </div>
     )

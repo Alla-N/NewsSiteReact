@@ -1,17 +1,17 @@
 import React from 'react';
 
 import Search from './Search/Search.js';
-import Categoris from './Categoris/Categoris.js';
+import Categories from './Categories/Categories.js';
 import Subscribe from './Subscribe/Subscribe.js';
 import TabPost from './TabPost/TabPost.js';
 import Tags from './Tags/Tags.js';
 
 
-const RigtSidebar = () =>{
+const RightSidebar = () =>{
     return(
-        <div className='rigtSidebar'>
+        <div className='rightSidebar'>
             <Search />
-            <Categoris />
+            <Categories />
             <Subscribe />
             <TabPost />
             <Tags />
@@ -20,4 +20,4 @@ const RigtSidebar = () =>{
 }
 
 
-export default RigtSidebar;
+export default RightSidebar;

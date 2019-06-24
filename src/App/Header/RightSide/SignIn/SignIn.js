@@ -1,12 +1,12 @@
 import React from 'react';
 
-import icon from './icon-signin.png'
+import icon from './icon-sign_in.png'
 
 
 const SignIn = () =>{
     return(
         <div className="signIn">
-                <a href="">
+                <a href="#/">
                     <img src={icon} alt=""/>
                     <span>Sign in</span>
 				</a>								

@@ -1,5 +1,4 @@
 import React,{Component} from 'react'
-import {Link} from 'react-router-dom';
 import { connect } from 'react-redux';
 import './FullPageNews.css'
 import news from '../../Main/MainMain/news'
@@ -34,7 +33,7 @@ class FullPageNews extends Component {
     
     let newsOne;
     for(var i=0; i<news.length; i++){
-        if(news[i].id==newsId){
+        if(news[i].id===newsId){
             newsOne = news[i];
             break;
         }

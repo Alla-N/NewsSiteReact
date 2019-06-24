@@ -32,7 +32,7 @@ render (){
         <div>
         <div className='vertical'>
             {                
-                (filterParameter === 'all' ? news : news.filter(news=>news.tag==filterParameter).filter(news=>news.tagTopNews===false)).slice(4,this.state.itemsToShow).map(({
+                (filterParameter === 'all' ? news : news.filter(news=>news.tag===filterParameter).filter(news=>news.tagTopNews===false)).slice(4,this.state.itemsToShow).map(({
                     id,
                     image,
                     title,
@@ -58,7 +58,7 @@ render (){
                 })   
             }
         </div>
-        <div className="showmoreButton">
+        <div className="showMoreButton">
             <button onClick = {() => this.showMoreNews() }>
                 Show more
 			</button>

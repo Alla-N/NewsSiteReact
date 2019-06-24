@@ -24,7 +24,7 @@ a{
 	color:black;
 }
 
-.fullPageNews ol, ul{
+.fullPageNews ol, .fullPageNews ul{
 	margin-left: 65px;
 }
 

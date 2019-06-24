@@ -45,12 +45,12 @@ class VerticalNews extends Component{
             
 
                 <div className='videoDescriptionShortText'>
-                    <a href=""> <h3>{title}</h3> </a>
+                    <a href="#/"> <h3>{title}</h3> </a>
                     <p>  {shortDescription} </p>
                 </div>
                 <div className="authorVideo">
                     <img src={authorImage} alt="" />
-                    <a href=""><span>{authorName}</span></a>
+                    <a href="#/"><span>{authorName}</span></a>
                     <br />
                     <input type="data" defaultValue={dataPost} className="postData" />
                     

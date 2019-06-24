@@ -10,7 +10,7 @@ const FullSize = ({filterParameter}) =>{
     return(      
         <div> 
             {   
-                (filterParameter === 'all' ? news.filter(news=>news.topNews===true) : news.filter(news=>news.tag==filterParameter).filter(news=>news.tagTopNews===true)).map(({
+                (filterParameter === 'all' ? news.filter(news=>news.topNews===true) : news.filter(news=>news.tag===filterParameter).filter(news=>news.tagTopNews===true)).map(({
                 id,
                 image,
                 title,

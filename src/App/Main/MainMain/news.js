@@ -8,9 +8,7 @@ const news=[
     image:'/images/fullsize_img.jpg',
     title: '10 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
 
-    shortDescription:'The one constant thing in our life is change.\
-     We cannot avoid it and the more we resist change the tougher our life becomes.\
-      I know this because I was very skilled at deflecting change in life.',
+    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
@@ -27,14 +25,14 @@ const news=[
     
     <p>The best things in life may be free, but that doesn't mean they won't take time, sweat, and perseverance to acquire.</p>
     <p>That's especially the case when it comes to learning important life skills.</p>
-    <p>In an effort to ascertain which talents are worth the investment, one Quora reader posed the question: What are the hardest and most useful skills to learn?</p>
+    <p>In an effort to ascertain which talents are worth the investment, one Quota reader posed the question: What are the hardest and most useful skills to learn?</p>
     <p>We've highlighted our favorite takeaways.</p>
     <h2>1. Time management</h2>
     <p>Effective time management is one of the most highly valued skills by employers. While there is no one right way, it's important to find a system that works for you and stick to it, Alina Grzegorzewska explains.</p>
     <p>"The hardest thing to learn for me was how to plan," she writes. "Not to execute what I have planned, but to make so epic a to-do list and to schedule it so thoroughly that I'm really capable of completing all the tasks on the scheduled date."</p>   
     <h2>2. Empathy</h2>    
     <p>"You can be the most disciplined, brilliant, and even wealthy individual in the world, but if you don't care for or empathize with other people, then you are basically nothing but a sociopath," writes Kamia Taylor.</p>    
-    <p>Empathy, as business owner Jane Wurdwand explains, is a fundamental human ability that has too readily been forsworn by modern business.</p>   
+    <p>Empathy, as business owner Jane Woodward explains, is a fundamental human ability that has too readily been forsworn by modern business.</p>   
     <p>"Empathy — the ability to feel what others feel — is what makes good sales and service people truly great. Empathy as in team spirit — esprit d'corps — motivates people to try harder. Empathy drives employees to push beyond their own apathy, to go bigger, because they feel something bigger than just a paycheck," she writes.</p>   
     <h2>3. Mastering your sleep</h2>    
     <p>There are so many prescribed sleep hacks out there it's often hard to keep track. But regardless of what you choose, establishing a ritual can help ensure you have restful nights.</p>
@@ -80,9 +78,7 @@ const news=[
     tag:'inspiration',
     image:'/images/horizontal_img.jpg',
     title: 'The 5 LESSONS In Life People Learn TOO LATE',
-    shortDescription:'What are the lessons people most often learn too late in life?"\
-     originally appeared on Quora--the place to gain and share knowledge,\
-      empowering people to learn from others and better understand the world.',
+    shortDescription:'What are the lessons people most often learn too late in life? Originally appeared on Quora--the place to gain and share knowledge, empowering people to learn from others and better understand the world.',
       
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
@@ -202,11 +198,9 @@ const news=[
     image:'/images/horizontal_img2.jpg',
     title: '10 amazing habits you must adopt in 2019!',
 
-    shortDescription:'The achievement of any important goal is enabled by\
-     choosing new behaviours every day – their combined effect will lead to\
-      that magic moment when you will say; ‘Wow, I have done it!’.',
+    shortDescription:'The achievement of any important goal is enabled by choosing new behaviours every day – their combined effect will lead to that magic moment when you will say; ‘Wow, I have done it!’.',
 
-    authorImage:'/images/author.png',
+    authorImage:"/images/author.png",
     authorName:'Evan Carmichael',
     dataPost:'October 10, 2017 09:45',
 
@@ -326,9 +320,7 @@ const news=[
     image:'/images/vertical_img.jpg',
     title: 'Develop an Insane WORK ETHIC',
 
-    shortDescription:'Everybody’s mind works differently.\
-     This is not a universal guide, in any way, and should be treated as mere\
-      pondering of the writer.',
+    shortDescription:'Everybody’s mind works differently. This is not a universal guide, in any way, and should be treated as mere pondering of the writer.',
 
     topNews:false,
     tagTopNews:true,

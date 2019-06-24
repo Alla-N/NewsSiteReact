@@ -62,7 +62,7 @@ render (){
                 )
         )}
         </div>
-        <div className="showmoreButton">
+        <div className="showMoreButton">
             <button onClick = {() => this.showMoreNews() }>
                 Show more
 			</button>

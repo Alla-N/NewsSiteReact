@@ -12,12 +12,12 @@ const LeftSide = () =>{
     return(
         <div className="leftSide">
             <div className="socialIcons">
-                <a href=""><img src={icon1} alt=""></img></a>
-                <a href=""><img src={icon2} alt=""></img></a>
-                <a href=""><img src={icon3} alt=""></img></a>
-                <a href=""><img src={icon4} alt=""></img></a>
-                <a href=""><img src={icon5} alt=""></img></a>
-                <a href=""><img src={icon6} alt=""></img></a>
+                <a href="#/"><img src={icon1} alt=""></img></a>
+                <a href="#/"><img src={icon2} alt=""></img></a>
+                <a href="#/"><img src={icon3} alt=""></img></a>
+                <a href="#/"><img src={icon4} alt=""></img></a>
+                <a href="#/"><img src={icon5} alt=""></img></a>
+                <a href="#/"><img src={icon6} alt=""></img></a>
 			</div>
         </div>
     )

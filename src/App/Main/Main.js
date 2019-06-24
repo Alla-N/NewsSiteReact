@@ -3,9 +3,6 @@ import React,{Component} from 'react';
 import MainHeader from './MainHeader/MainHeader.js';
 import MainMain from './MainMain/MainMain.js';
 
-
-
-
 class Main extends Component {
 
     state = {
@@ -22,8 +19,6 @@ class Main extends Component {
         }));
 
     }
-
-
 
    
     render(){
