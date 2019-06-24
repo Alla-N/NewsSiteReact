@@ -24,6 +24,10 @@ a{
 	color:black;
 }
 
+.fullPageNews p{
+	margin:20px 0; 
+}
+
 .fullPageNews ol, .fullPageNews ul{
 	margin-left: 65px;
 }

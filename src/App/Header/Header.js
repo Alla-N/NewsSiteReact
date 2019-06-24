@@ -26,15 +26,16 @@ const Header = () =>{
             <div className="header">
 			    <div className="container">
 				    <div className="row">
-					    <div className="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+					    <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2">
                             <Logo/>
+                        </div>
+                        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <NavButtons/>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                             <HeaderNavMenu/>
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                            <NavButtons/>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

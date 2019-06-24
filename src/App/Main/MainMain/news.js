@@ -5,7 +5,7 @@ const news=[
 {
     id:1,
     tag:'lifestyle',
-    image:'/images/fullsize_img.jpg',
+    image:'/images/FullSize_img.jpg',
     title: '10 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
 
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
@@ -14,7 +14,7 @@ const news=[
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
     topNews:true,
-    tagTopNews:false,
+    tagTopNews:true,
     fullDescription: 
         <div> 
     <h1>10 skills that are hard to learn but pay off forever</h1>
@@ -399,7 +399,7 @@ const news=[
     shortDescription:'Did you know that a client looking for a custom WordPress site usually pays between $3,000 and $15,000 dollars to a remote freelancer, according to ManageWP.com?',
 
     topNews:false,
-    tagTopNews:true,
+    tagTopNews:false,
 
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
@@ -544,7 +544,7 @@ const news=[
 
     shortDescription:'For 24 years, Soviet scientists dug deeper into the Earth’s surface than anyone had ever done before. The result was the Kola Superdeep Borehole located on the Kola Peninsula in Russia.',
     topNews:false,
-    tagTopNews:true,
+    tagTopNews:false,
 
     authorImage:'/images/author.png',
     authorName:'Evan Carmichael',
@@ -801,10 +801,10 @@ const news=[
 {
     id:11,
     tag:'trip',
-    image:'/images/fullsize_img.jpg',
-    title: '110 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+    image:'/images/vertical_img9.jpg',
+    title: 'TRAVEL QUESTION: WHERE SHOULD WE STOP OFF ON OUR PORTUGAL ROAD TRIP?',
 
-    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
+    shortDescription:'We are travelling to Porto next week for a few nights. We wondered about renting a car and driving down to Lisbon and back. Where would you recommend we stop along the way?',
     
     topNews:false,
     tagTopNews:false,
@@ -813,17 +813,30 @@ const news=[
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
-    fullDescription:'',
+    fullDescription:
+    <div>
+        <h1>WHERE SHOULD WE STOP OFF ON OUR PORTUGAL ROAD TRIP?</h1>
+        <figure>
+        <p><img src='/images/fullPageNews/news11-1.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>We are travelling to Porto next week for a few nights. We wondered about renting a car and driving down to Lisbon and back. Where would you recommend we stop along the way?</p>
+        <p>There is plenty of interest between the two biggest cities in Portugal. Heading south from Porto, the first notable location is Aveiro, a small and friendly city with a network of canals. Next, Coimbra is simply magnificent: the heart of Portuguese academia, with a university installed in a hilltop palace. The highlight is the Biblioteca Joanina – an outstanding Baroque library.</p>
+        <p>There is plenty of interest between the two biggest cities in Portugal. Heading south from Porto, the first notable location is Aveiro, a small and friendly city with a network of canals. Next, Coimbra is simply magnificent: the heart of Portuguese academia, with a university installed in a hilltop palace. The highlight is the Biblioteca Joanina – an outstanding Baroque library.</p>
+        <p>There is plenty of interest between the two biggest cities in Portugal. Heading south from Porto, the first notable location is Aveiro, a small and friendly city with a network of canals. Next, Coimbra is simply magnificent: the heart of Portuguese academia, with a university installed in a hilltop palace. The highlight is the Biblioteca Joanina – an outstanding Baroque library.</p>
+        <p>There is plenty of interest between the two biggest cities in Portugal. Heading south from Porto, the first notable location is Aveiro, a small and friendly city with a network of canals. Next, Coimbra is simply magnificent: the heart of Portuguese academia, with a university installed in a hilltop palace. The highlight is the Biblioteca Joanina – an outstanding Baroque library.</p>
+        <p>There is plenty of interest between the two biggest cities in Portugal. Heading south from Porto, the first notable location is Aveiro, a small and friendly city with a network of canals. Next, Coimbra is simply magnificent: the heart of Portuguese academia, with a university installed in a hilltop palace. The highlight is the Biblioteca Joanina – an outstanding Baroque library.</p>
+    </div>,
     
 }
 ,
 {
     id:12,
     tag:'trip',
-    image:'/images/fullsize_img.jpg',
-    title: '120 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+    image:'/images/vertical_img10.jpg',
+    title: 'CROATIA: NEW EXPERIENCES TO TRY THIS SPRING',
 
-    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
+    shortDescription:"Planning a springtime break to Croatia? Here's our pick of new green initiatives sure to attract nature lovers as well as epicureans and lotus eaters looking for a spot of eco-indulgence.",
     
     topNews:false,
     tagTopNews:true,
@@ -833,7 +846,48 @@ const news=[
     dataPost:'April 28, 2016 10:15',
     
 
-    fullDescription:'',
+    fullDescription:
+    <div>
+        <h1>Croatia: new experiences to try this Spring </h1>
+        <figure>
+        <p><img src='/images/fullPageNews/news12-1.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Planning a springtime break to Croatia? Here's our pick of new green initiatives sure to attract nature lovers as well as epicureans and lotus eaters looking for a spot of eco-indulgence.</p>
+        <h2>Visit Zlarin, the plastic-free island</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news12-2.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <figure>
+        <p><img src='/images/fullPageNews/news12-3.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>In March 2019, the island of Zlarin made a pledge to be Croatia's first island to scrap single-use plastics. Starting this Spring, environmental activists as well as local residents on the island are working towards the goal to eliminate the use of bags, plates, cutlery and glasses made of plastic and replace these with more sustainable alternatives.</p>
+        <p>Connected by ferry to the charming city of Šibenik, this small island covers an area of only eight square kilometres, but there are 19 kilometres of coastline which means plenty of beaches. There's another excellent reason to visit: Zlarin is also car-free! Hire a bicycle and you're all set for a low-carbon island holiday.</p>
+        <h2>Sample natural wines at Roxanich Wine Hotel</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news12-4.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>“Honest and natural winemaking” is the ethos of Roxanich, winemakers producing quality vintages in the vineyard-covered hills of Istria, Croatia's westernmost region. Inspired by biodynamic agriculture – an organic approach to farming developed by Rudolf Steiner and guided by principles like balance and sustainability, chemicals are avoided as much as possible in the wine-making process in favour of natural ingredients.</p>
+        <p>The much anticipated Roxanich Wine & Heritage Hotel opened its doors in April at the foot of the charming hilltop village of Motovun, and is a fine addition to Istria's gastronomic map. Tours of the massive wine cellars, wine-tasting experiences, and tasting menus combined with wine pairing are on offer here along with stylish guest rooms and a wellness centre if you're looking for a gastronomic escape.</p>
+        <h2>Learn about eco-friendly building techniques</h2>
+        <p>If you're intrigued by eco-friendly buildings and would like to go hands-on and learn a few techniques in green building, Gea Via is the place for you. This eco-retreat camp on the island of Brač is holding a workshop in dry-stone walling where participants can learn how to build the dry-stone walls so typical in rural parts of Croatia made without the use of mortar or other materials. Another week-long workshop on 'Creating your eco-building' tackles simple construction techniques using renewable or recycled materials.</p>
+        <p>There are plenty of examples of sustainable buildings at Gea Via to be inspired by: check out the straw bale eco-cabin, large dome tent for seminars and yoga retreats, outdoor kitchen, the stone circle open-air auditorium, and reed-roofed huts. Set in an olive grove overlooking the sea, accommodation is provided in glamping huts and tents.</p>
+        <h2>Explore the Vis archipelago: A UNESCO Global Geopark</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news12-5.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <figure>
+        <p><img src='/images/fullPageNews/news12-6.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Vis has been in the international spotlight in the past year as the picturesque filming location for Mamma Mia 2. But this Dalmatian island was in the news again last month when it was designated as a UNESCO Global Geopark. This status recognises its exceptional geological heritage. Vis and the nearby islands of Jabuka, Brusnik, Biševo and Palagruža, which make up the Vis archipelago, are geologically the oldest islands of the Adriatic Sea.</p>
+        <p>The best-known attraction here is the Blue Cave: a sea cave only accessible by boat located in a small bay on the island of Biševo. Visit around midday to see the cave fill with a magical glowing blue light reflecting off the limestone walls.</p>
+
+    </div>,
     
     
     
@@ -842,10 +896,10 @@ const news=[
 {
     id:13,
     tag:'inspiration',
-    image:'/images/fullsize_img.jpg',
-    title: '130 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+    image:'/images/vertical_img11.jpg',
+    title: 'HOW TO MAKE THE MOST OF MUSIC FESTIVALS WITHOUT HARMING THE PLANET',
 
-    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
+    shortDescription:'The festival season is finally upon us and we’re bursting with excitement. Glastonbury, Coachella, Primavera, you name it – we’ll be there.',
     
     topNews:false,
     tagTopNews:false,
@@ -854,16 +908,55 @@ const news=[
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
-    fullDescription:'',  
+    fullDescription:
+    <div>
+        <h1>HOW TO MAKE THE MOST OF MUSIC FESTIVALS WITHOUT HARMING THE PLANET</h1>
+        <figure>
+        <p><img src='/images/fullPageNews/news13-1.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>The festival season is finally upon us and we’re bursting with excitement. Glastonbury, Coachella, Primavera, you name it – we’ll be there. However, we can’t help but be acutely aware that festivals produce a shocking amount of plastic. The Association of Independent Festivals (AIF) say that audiences at UK festivals consume 10 million plastic bottles and that 250,000 tents are left at festival sites annually.</p>
+        <p>But we’re determined not to let the doom and gloom taint our festival experiences, or yours! Instead, we’ve come up with an festival guide for the ecologically minded, so you can have an unforgettable festival experience and feel safe in the knowledge that you’re doing your bit for the planet simultaneously. Roll on our 5 suggestions for a greener festival season.</p>
+        <h2>Pack an eco-friendly ‘festival survival & hygiene kit’</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news13-2.jpg' alt='not found'></img></p>
+        <figcaption>Deodorant from the survival kitFull Circle</figcaption>
+        </figure>
+        <p>Packing for a festival with limited space in your bag can often lead you to buying multiple small plastic bottles that will be chucked away after a fun-filled weekend. Thankfully, Full Circle has got your hygiene needs covered this festival season. Within this nifty kit, you will find 9 products - all of which are either reusable, biodegradable or recyclable.</p>
+        <p>What’s included: antiperspirant in a recyclable aluminium can, toothpaste in a zero-waste reusable aluminium pot, a biodegradable eco-towel, dry shampoo in a recyclable aluminium can, 100% recycled toilet paper, anti-bac in a reusable aluminium bottle, biodegradable face-wipes and no-rinse body wash in a zero-waste reusable aluminium bottle. What more could you need? Priced at £22.99.</p>
+        <h2>Sparkle in sustainable style</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news13-3.jpg' alt='not found'></img></p>
+        <figcaption>Biodegradable glitterEcoStardust</figcaption>
+        </figure>
+        <p>Glitter may look pretty but what it can do to the planet is ugly, as micro-plastics seep into our oceans and work their way up to the top of the food chain. 38 Degrees began a petition to ban micro-plastic glitter as they found in a recent study that ‘up to a third of fish caught in the North Sea contained micro-plastic particles’.</p>
+        <p>Enter EcoStardust Glitter made from a ‘special biodegradable film’ created from plant cellulose sourced principally from sustainably-farmed eucalyptus trees. This glitter not only looks dazzling but is safe for your skin, hair and the environment. The bio-glitter comes in aluminium tins or biodegradable grip seal bags and can be popped into recycling once you’ve sparkled your way through the festival season.</p>
+        <h2>Take a reusable bottle</h2>
+        <p>Greenpeace has now estimated that 12.7 million tonnes of plastic find their way into our oceans each year. That’s a shocking statistic but we can reduce that significantly, by opting for a reusable bottle rather than a plastic one. We think S’well Water Bottles are a perfect replacement as they’re designed to keep your drink cold for 24 hours.</p>
+        <p>From £24.49 and available on Zen Wardrobe</p>
+        <h2>A Tent is for life, not just for a festival</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news13-4.jpg' alt='not found'></img></p>
+        <figcaption>Biodegradable glitterEcoStardust</figcaption>
+        </figure>
+        <p>The AIF found that 875 tonnes in plastic waste had been left in the form of tents after the UK festival season in 2018 - which is equivalent to eight blue whales! So what options do we have to dramatically decrease this shocking statistic?</p>
+        <ul>
+            <li>Ensure you buy a tent that will last and take it home with you</li>
+            <li>Rent a tent via Fat Llama if you don’t want to invest in a tent for life - it’s like Airbnb for useful items</li>
+            <li>Glampify your festival experience by investing in a 100% cotton and biodegradable bell tent available on CanvasCamp</li>
+        </ul>
+
+    </div>
+    ,  
 }
 ,
 {
     id:14,
     tag:'business',
-    image:'/images/fullsize_img.jpg',
-    title: '140 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+    image:'/images/vertical_img12.jpg',
+    title: 'Wind power: £100m fund aims to boost UK companies',
 
-    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
+    shortDescription:'A £100m fund has been established to help UK firms capitalise on the boom in offshore wind.',
     
     topNews:false,
     tagTopNews:false,
@@ -872,17 +965,35 @@ const news=[
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
-    fullDescription:'', 
+    fullDescription:
+    <div>
+        <h1>Wind power: £100m fund aims to boost UK companies</h1>
+        <figure>
+        <p><img src='/images/fullPageNews/news14-1.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>A £100m fund has been established to help UK firms capitalise on the boom in offshore wind.</p>
+        <p>With the UK so well suited to exploiting wind power, turbines have been erected in more than 30 locations from Brighton to the Moray Firth.</p>
+        <p>But trade unions say the boom has not generated enough jobs for UK workers.</p>
+        <p>The Offshore Wind Industry Council says its initiative will help hundreds of firms "maximise opportunities" in the offshore wind supply chain.</p>
+        <p>"The Offshore Wind Growth Partnership will provide practical help for UK companies so they can compete successfully for contracts in this thriving global market," said Benj Sykes, chairman of the OWIC and UK country manager for the Danish firm Orsted.</p>
+        <p>The OWIC, which is a joint government and industry body, will invest the privately-raised funds over 10 years to support companies in the supply chain.</p>
+        <p>Firms that manufacture parts, lay cables and maintain wind farms will receive support ranging from "expert advice on manufacturing and commercialisation" to funding for innovation. They will also be given support to export their products and services.</p>
+        <p>By 2030 the offshore wind power market is expected to be worth £30bn per year, with the UK expected to be generating a third of its electricity from wind. The OWIC hopes to raise the participation of UK businesses in the industry from 48% currently to 60%, under a sector deal agreed between industry and government.</p>
+        <p>The new fund will bring "investment, thousands of high-quality jobs and huge economic opportunities for communities across the UK", energy and clean growth minister Chris Skidmore said.</p>
+        <p>Last month GMB general secretary, Tim Roache said Britain's politicians needed "to sharpen their elbows in the fight for jobs" when it came to opportunities in the growing renewables sector.</p>
+        <p>The union says up to 1,000 jobs could be created at two mothballed yards in Fife if EDF chose local firms to manufacture parts for a huge wind farm project there, rather than as is expected the work being done in Indonesia, Belgium and Spain.</p>   
+     </div>, 
     
 }
 ,
 {
     id:15,
     tag:'business',
-    image:'/images/fullsize_img.jpg',
-    title: '150 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+    image:'/images/vertical_img13.jpg',
+    title: 'Lloyds will not reveal frozen account details',
 
-    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
+    shortDescription:'Lloyds Banking Group has refused to reveal how much money is in the Jersey accounts which it has frozen amid heightened fears about financial crime.',
     
     topNews:false,
     tagTopNews:false,
@@ -891,17 +1002,39 @@ const news=[
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
-    fullDescription:'',
-    
+    fullDescription:
+    <div>
+        <h1>Lloyds will not reveal frozen account details</h1>
+        <figure>
+        <p><img src='/images/fullPageNews/news15-1.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Lloyds Banking Group has refused to reveal how much money is in the Jersey accounts which it has frozen amid heightened fears about financial crime.</p>
+        <p>It would not say how many of the 8,000 accounts were held by UK citizens.</p>
+        <p>Lloyds said the accounts were suspended because customers failed to respond to requests to prove their identity.</p>
+        <p>The crackdown came after the imposition of tougher money laundering rules in Jersey, which has faced pressure to improve its financial transparency.</p>
+        <p>The drastic action to freeze accounts was revealed in the Financial Times. The paper said that HSBC, Barclays and RBS had also tightened controls in Jersey.</p>
+        <p>Lloyds emphasised that it had frozen the accounts because customers had not got back in touch, not because of any other specific concerns.</p>
+        <ul>
+            <li>Islands' secret records to be made public</li>
+            <li>Jersey is 'seventh worst tax haven'</li>
+        </ul>
+        <p>Lloyds started trying to contact expatriate customers of its Jersey operation in January 2016, asking them to update their details and provide missing information.</p>
+        <p>A crucial component of the information required is a certified identity document, proving that the account holder is genuine.</p>
+        <p>"Unfortunately, where a customer has not provided us with this necessary information we have had to freeze their account until we get the information," said a spokesperson for Lloyds.</p>
+        <p>"This is also to protect the customer, as it prevents anybody else trying to use the account if the customer has stopped using it or has moved address."</p>
+        <p>Accounts in the Channel Islands and other offshore centres are commonly used by overseas workers to house money they have earned or saved in different currencies.</p>
+        <p>But they attract suspicion about tax avoidance, and fears that they are used to stash illegal money from around the world.</p>
+    </div>,
 }
 ,
 {
     id:16,
     tag:'lifestyle',
-    image:'/images/fullsize_img.jpg',
-    title: '160 SKILLS That Are HARD to Learn, BUT Will Pay Off FOREVER!',
+    image:'/images/vertical_img14.jpg',
+    title: 'Turning carbon dioxide into cash',
 
-    shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
+    shortDescription:'Scientists from round the world are meeting in Germany to improve ways of making money from carbon dioxide.',
     
     topNews:false,
     tagTopNews:false,
@@ -910,7 +1043,56 @@ const news=[
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
-    fullDescription:'',
+    fullDescription:
+    <div>
+        <h1>Turning carbon dioxide into cash</h1>
+        <figure>
+        <p><img src='/images/fullPageNews/news16-1.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Scientists from round the world are meeting in Germany to improve ways of making money from carbon dioxide.</p>
+        <p>They don’t claim the technology will solve climate change, but they say it will help.</p>
+        <p>Carbon dioxide is already being used in novel ways to create fuels, polymers, fertilisers, proteins, foams and building blocks.</p>
+        <p>Until recently, it was assumed that energy-intensive firms burning gas to fuel their processes would need eventually to capture the resulting carbon emissions and bury them underground.</p>
+        <p>This option is inefficient and costly, so the prospect of utilising some of the CO2 as a valuable raw material is exciting for business.</p>
+        <p>Katy Armstrong, manager of the Carbon Utilisation Centre at Sheffield University, put it this way: “We need products for the way we live - and everything we do has an impact.</p>
+        <p>“We need to manufacture our products without increasing CO2 emissions, and if we can use waste CO2 to help make them, so much the better.”</p>
+        <p>Many of the young carbon usage firms are actually carbon-negative: that means they take in more CO2 than they put out.</p>
+        <p>We visited three pioneering businesses in the UK which are already making money out of CO2.</p>
+        <p>Here are their recipes for success (or at least, the ones they will share with us).</p>
+        <h2>Three success stories</h2>
+        <figure>
+        <p><img src='/images/fullPageNews/news16-2.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Recipe: Put cow dung and maize into a bio-digester, where bacteria break them down and produce biogas to heat our homes.</p>
+        <p>Mix the left-over sludge with nutrient-rich wastes from the fertiliser industry, sewage plants, farms or the food industry.</p>
+        <p>Pump in CO2, which helps the nutrients bind to the sludge.</p>
+        <p>Product: High-grade fertiliser pellets that have soaked up more CO2 than they produced. The technology has already won export orders.</p>
+        <p>CO2 to beer bubbles: Strutt and Parker Farms, Suffolk</p>
+        <figure>
+        <p><img src='/images/fullPageNews/news16-3.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Recipe: Take horse muck and straw from Newmarket races. Put the smelly mess through a bio-digester (as above).</p>
+        <p>Extract biogas and CO2. Using advanced membranes, separate out food grade CO2.</p>
+        <p>Product: Clean CO2 that’s sold to a local brewery to put the fizz into lemonade and lager.</p>
+        <p>CO2 to building blocks: Carbon 8 Aggregates, Leeds</p>
+        <figure>
+        <p><img src='/images/fullPageNews/news16-4.jpg' alt='not found'></img></p>
+        <figcaption></figcaption>
+        </figure>
+        <p>Recipe: Take ash from the chimney of a waste incinerator plant.</p>
+        <p>Mix in water and CO2 - then stand back… this procedure gets very hot.</p>
+        <p>The CO2 is permanently captured within the waste ash to form artificial limestone for building blocks and other purposes.</p>
+        <p>The process has the additional benefit of treating the ash that would otherwise be sent to landfill.</p>
+        <p>Product: blocks that have locked up CO2, whilst also reducing the need for carbon-intensive cement. The technology is winning exports.</p>
+        <p>These firms are pioneers in what’s known as the Circular Economy, in which wastes are turned into raw materials. The EU is trying to prompt all industry to adopt this principle.</p>
+        <h2>How much CO2 can products absorb?</h2>
+        <p>The big question is how much of the approximately 37 gigatonnes of CO2 emitted annually from our homes, cars, planes, offices and industries can be utilised by industry.</p>
+        <p>One report projected that seven gigatonnes a year of CO2 could be locked up into new products.</p>
+        <p>Katy Armstrong described this figure as hugely optimistic. But she said: “Every tonne that’s captured is a tonne that doesn't heat the atmosphere, so let’s hope the industry thrives.”</p>
+    </div>,
   
 }
 ];

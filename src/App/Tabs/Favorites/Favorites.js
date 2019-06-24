@@ -13,14 +13,14 @@ class Favorites extends Component {
    
     
     state = {
-        itemsToShow: 10,
+        itemsToShow: 8,
     }
 
     showMoreNews = () => {
 
         this.setState((prevState) =>  ({
 
-            itemsToShow: prevState.itemsToShow+3,
+            itemsToShow: prevState.itemsToShow+4,
 
         }));
 
@@ -60,7 +60,7 @@ render (){
                     </div>
                     
                 )
-        )}
+        ).slice(0,this.state.itemsToShow)}
         </div>
         <div className="showMoreButton">
             <button onClick = {() => this.showMoreNews() }>

@@ -43,11 +43,11 @@ render(){
             {isLiked? <div>&#10084;</div> :  <div>&#9825;</div>}
 
         </button>
-            <img src={image} alt=''></img>
-            <a href="#/"> <h3>{title}</h3>  </a>
+            <div className="fullSizeImg"><Link to={`/news/${id}`}><img src={image} alt=''></img></Link></div> 
+            <Link to={`/news/${id}`}> <h3>{title}</h3>  </Link>
             <p>{shortDescription}</p>
             <div className="authorVideo">
-                <img src={authorImage} alt="" />
+                <a href="#/"><img src={authorImage} alt="" /></a>
                 <a href="#/"> <span>{authorName}</span>  </a>
                 <br />
                 <input type="data" defaultValue={dataPost} className="postData" />

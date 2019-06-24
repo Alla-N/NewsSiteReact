@@ -35,19 +35,19 @@ class HorizontalNews extends Component {
 
     return(
         <div className='horizontalNews'>
-            <img src={image} alt=""></img>
+            <div className="NewsImgHorizontal"><Link to={`/news/${id}`}><img src={image} alt=""></img></Link></div>
             <button className="likeButton"  onClick={()=>this.changeLikeButtonState()}>
 
             {isLiked? <div>&#10084;</div> :  <div>&#9825;</div>}
 
         </button>
             <div className="videoDescription">
-                <div>
-                    <a href="#/"> <h3>{title}</h3>  </a>
+                <div className="videoDescriptionShortText">
+                    <Link to={`/news/${id}`}> <h3>{title}</h3>  </Link>
                     <p> {shortDescription} </p>
                 </div>
                 <div className="authorVideo">
-                    <img src={authorImage} alt="" />
+                    <a href="#/"><img src={authorImage} alt="" /></a>
                     <a href="#/"><span>{authorName}</span></a>
                     <br />
                     <input type="data" defaultValue={dataPost} className="postData" />

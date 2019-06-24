@@ -21,7 +21,7 @@ a{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 3;
+    z-index: 999;
 }
 
 .headerBlock{
@@ -29,7 +29,7 @@ a{
 	background-color: black;
 	color: white;
 	min-height: 50px;
-	padding: 5px 4%;
+	padding: 10px;
 }
 
 
@@ -42,7 +42,9 @@ a{
 .socialIcons a:hover{
 	transform: scale(1.1);
 }
-
+.rightSide{
+	text-align: right;
+}
 
 .rightSide a{
 	text-decoration: none;
@@ -87,16 +89,17 @@ a{
 
 
 .header{
-	min-height: 70px;
-	line-height: 70px;
+	min-height: 40px;
+	line-height: 40px;
 	vertical-align: middle;
 	background-color: #3f51b5;
+	padding: 10px;
 }
 
 .logo{
 	margin: 0 auto;
 	text-align: center;
-	align-items: center;
+	
 }
 
 .logo:hover{
@@ -112,15 +115,14 @@ a{
 
 .headerNavMenu>ul{
 	margin: 0 auto;
-	max-width: 500px;
-	text-align: center;
+	text-align: right;
 
 }
 
 .headerNavMenu>ul>li{
 	display: inline-block;
 	list-style: none;
-	height: 70px;
+	height: 40px;
 	box-sizing: border-box;
 
 }
@@ -132,7 +134,6 @@ a{
 
 .headerNavMenu>ul>li:hover {
 	opacity: 0.7;
-	border-bottom: 2px solid red;
 }
 
 div.headerNavMenu>ul>li>a{
@@ -309,12 +310,13 @@ div.headerNavMenu>ul>li>a:only-child{
 }
 
 
-div.verticalNews>button.likeButton, div.horizontalNews>button.likeButton, div.fullSize>button.likeButton {
+ div.verticalNews>button.likeButton, div.horizontalNews>button.likeButton, div.fullSize>button.likeButton {
 	position: absolute;
 	top:0;
 	right: 10px;
 	height: 25px;
 	width: 25px;
+	z-index: 99;
 }
 
 
@@ -347,25 +349,61 @@ div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div
 	background-color: white;
 	margin-bottom: 15px;
 	position: relative;
+	text-align: center;
 }
 
 .fullSize a{
 	color:black;
 }
+.fullSize a img{
+	-webkit-transition: .8s ease-out;
+    transition: .8s ease-out;
+}
 
-.fullSize a:hover, .fullSize a:hover h3{
+.fullSize a:hover img{
+	transform: scale(1.1);
+}
+
+ .fullSize a:hover>h3{
 	opacity: 0.7;
 }
 
-.fullSize>div, h3,p{
+
+.fullSize>.authorVideo, .fullSize h3,.fullSize p{
 	margin: 15px;
 	padding: 10px;
 }
 
-.fullSize>img{
-	max-width: 100%;
+.fullSizeImg{
+	width: 100%;
+	overflow: hidden;
+}
+
+.fullSizeImg img{
+	width: 100%;
+
+}
+
+.NewsImgVertical{
+	width: 100%;
+	height: 245px;
+	overflow: hidden;
+}
+
+.NewsImgVertical img{
+	height: 100%;
 	min-width: 100%;
-	max-height: 400px;
+}
+
+.NewsImgHorizontal{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.NewsImgHorizontal img{
+	height: 100%;
+	width: 100%;
 }
 
 .fullSize>button, .horizontalNews button, .verticalNews button{
@@ -406,30 +444,29 @@ div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div
 .horizontal a{
 	color:black;
 }
+.horizontal a img{
+	-webkit-transition: .8s ease-out;
+    transition: .8s ease-out;
+}
 
-.horizontal a:hover, .horizontal a:hover h3{
+.horizontal a:hover img{
+	transform: scale(1.1);
+}
+
+ .horizontal a:hover h3{
 	opacity: 0.7;
 }
 
 .horizontalNews{
 	display: grid;
-	grid-template-columns: 260px 1fr;
+	grid-template-columns: 300px 1fr;
 	background-color: white;
-	min-height: 170px;
+	min-height: 245px;
 	margin-bottom: 15px;
 	position: relative;
 }
 
-.horizontalNews iframe{
-	min-height: 200px;
-	max-height: 100%;
-	width: 100%;
-}
 
-.horizontalNews>img{
-	height: 100%;
-	max-width: 100%;
-}
 
 
 .videoDescription{
@@ -437,9 +474,13 @@ div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div
 	background-color: white;
 	
 }
+ .videoDescription p{
+	margin-bottom: 15px;
+	
+}
 
 .videoDescriptionShortText{
-	height: 250px;
+	max-height: 200px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin-bottom: 15px;
@@ -458,22 +499,21 @@ div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div
 .vertical a{
 	color:black;
 }
+.NewsImgVertical a img{
+	-webkit-transition: .8s ease-out;
+    transition: .8s ease-out;
+}
 
-.vertical a:hover, .vertical a:hover h3{
+.NewsImgVertical a:hover img{
+	transform: scale(1.1);
+}
+
+.vertical .videoDescription a:hover h3{
 	opacity: 0.7;
 }
 
 .verticalNews{
 	position: relative;
-	
-}
-
-.verticalNews>img{
-	width: 100%;
-	max-width: 100%;
-	max-height: 200px;
-	min-height: 200px;
-	
 	
 }
 
@@ -504,7 +544,7 @@ div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div
 
 .rightSidebar{
 	background-color: white;
-	padding: 25px 35px;
+	padding: 20px;
 	text-align: left;
 }
 
@@ -755,20 +795,6 @@ color: darkblue;
 /* ------------footer------------------------- */
 
 
-.fotoSlider{
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-	grid-gap: 0;
-}
-
-.fotoSlider>div{
-	height: 235px;
-}
-
-.fotoSlider>div>img{
-	width: 100%;
-	height: 235px;
-}
 
 .footerSubscribe{
 	min-height: 200px;
@@ -845,11 +871,14 @@ color: darkblue;
 		text-align: right;
 	}
 
+	.headerNavMenu>ul{
+		text-align: center;
+	
+	}
+
 	.headerNavMenu>ul>li{
-		display: block;
+		display: inline-block;
 		height: 30px;
-		min-width: 140px;
-		max-width: 180px;
 		margin-bottom: 5px;
 		margin: 0 auto;
 }
@@ -858,22 +887,9 @@ color: darkblue;
 		display: block;
 		height: 30px;
 		line-height: 30px;
-		min-width: 140px;
-		max-width: 180px;
 		padding: 0;
 }
 
-.headerNavMenu>ul>li:hover {
-	margin-bottom: 0;
-}
-
-.headerSlider{
-	padding: 2%;
-}
-
-.headerSlider h1{
-	font-size: 25px;
-}
 
 .horizontalNews{
 	grid-template-columns: 1fr;
@@ -892,11 +908,14 @@ color: darkblue;
 
 }
 
+/* ----------------------------------- */
+
 @media (max-width: 768px){
 
 	.headerNavMenu>ul>li>a{
-	padding: 0 18px 0 10px;
+	padding: 0 10px 0 0;
 
 }
+
 
 }
