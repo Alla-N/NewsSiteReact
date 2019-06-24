@@ -1,0 +1,18 @@
+{
+  "main.css": "/NewsSiteReact/static/css/main.6edf35d1.chunk.css",
+  "main.js": "/NewsSiteReact/static/js/main.c277fdae.chunk.js",
+  "main.js.map": "/NewsSiteReact/static/js/main.c277fdae.chunk.js.map",
+  "runtime~main.js": "/NewsSiteReact/static/js/runtime~main.43963c1f.js",
+  "runtime~main.js.map": "/NewsSiteReact/static/js/runtime~main.43963c1f.js.map",
+  "static/js/2.3ae741d6.chunk.js": "/NewsSiteReact/static/js/2.3ae741d6.chunk.js",
+  "static/js/2.3ae741d6.chunk.js.map": "/NewsSiteReact/static/js/2.3ae741d6.chunk.js.map",
+  "index.html": "/NewsSiteReact/index.html",
+  "precache-manifest.40b23c22cf4ad5d088114f9f7f3e0f9c.js": "/NewsSiteReact/precache-manifest.40b23c22cf4ad5d088114f9f7f3e0f9c.js",
+  "service-worker.js": "/NewsSiteReact/service-worker.js",
+  "static/css/main.6edf35d1.chunk.css.map": "/NewsSiteReact/static/css/main.6edf35d1.chunk.css.map",
+  "static/media/style.css": "/NewsSiteReact/static/media/layer.fc52c6c6.png",
+  "static/media/imageSide1.png": "/NewsSiteReact/static/media/imageSide1.b5341cb6.png",
+  "static/media/imageSide2.png": "/NewsSiteReact/static/media/imageSide2.d8e92eaf.png",
+  "static/media/imageSide3.png": "/NewsSiteReact/static/media/imageSide3.8584b6c7.png",
+  "static/media/imageSide4.png": "/NewsSiteReact/static/media/imageSide4.f6f7e4a8.png"
+}
