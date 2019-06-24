@@ -5,35 +5,34 @@ import news from '../../Main/MainMain/news'
 
 class FullPageNews extends Component {
 
+    
+
     changeLikeButtonState = () =>{
+        
 
         if(this.props.isLiked){
         
-        this.props.addDislike(this.props.id)
+        this.props.addDislike(this.props.match.params.id)
         
         }else{
         
-        this.props.addLike(this.props.id)
+        this.props.addLike(this.props.match.params.id)
         }
         }
+
         
 
     render(){
 
-        const {
-            isLiked = false,
-    
-        } = this.props;
 
-    
+        console.log(this.props)
 
     let newsId = this.props.match.params.id;
-    
-    
+    let isLiked = this.props.isLiked;
     
     let newsOne;
     for(var i=0; i<news.length; i++){
-        if(news[i].id===newsId){
+        if(news[i].id==newsId){
             newsOne = news[i];
             break;
         }
@@ -46,7 +45,7 @@ class FullPageNews extends Component {
             <div className = 'fullPageNews'>
             <button className="likeButton"  onClick={()=>this.changeLikeButtonState()}>
 
-                {isLiked? <div>&#10084;</div> :  <div>&#9825;</div>}
+                    {isLiked? <div>&#10084;</div> :  <div>&#9825;</div>}
 
             </button>
                 <div>
@@ -58,7 +57,7 @@ class FullPageNews extends Component {
 
 const mapStateToProps = (state, props) => ({ 
 
-    isLiked: state[props.id]
+    isLiked: state.likeNews[props.match.params.id]
     
     });
 
@@ -74,7 +73,6 @@ const mapStateToProps = (state, props) => ({
         id:id,
         }),
         });
-    
 
 
 export default connect (mapStateToProps,mapDispatchToProps) (FullPageNews)
