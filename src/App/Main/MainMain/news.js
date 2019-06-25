@@ -10,7 +10,7 @@ const news=[
 
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
     
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
     topNews:true,
@@ -19,7 +19,7 @@ const news=[
         <div> 
     <h1>10 skills that are hard to learn but pay off forever</h1>
     <figure>
-        <p><img src='/images/fullPageNews/news1-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news1-1.jpg' alt='not found'></img></p>
         <figcaption>Time management skills will make working exponentially easier.</figcaption>
     </figure>
     
@@ -38,7 +38,7 @@ const news=[
     <p>There are so many prescribed sleep hacks out there it's often hard to keep track. But regardless of what you choose, establishing a ritual can help ensure you have restful nights.</p>
     <p>Numerous studies show that being consistent with your sleep schedule makes it easier to fall asleep and wake up, and it helps promote better sleep in general.</p>
     <figure>
-        <p><img src='/images/fullPageNews/news1-2.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news1-2.jpg' alt='not found'></img></p>
         <figcaption>20-minute power naps can give your brain a much-needed boost.</figcaption>
     </figure>
     <h2>4. Positive self-talk</h2>
@@ -56,7 +56,7 @@ const news=[
     <p>There are many instances when keeping to yourself is the best course. "When we are angry, upset, agitated, or vexed," writes Anwesha Jana, "we blurt out anything and everything that comes to our mind." And later, you tend to regret it.</p>
     <p>Keeping your mouth shut when you're agitated is one of the most valuable skills to learn, and of course, one of the most difficult.</p>
     <figure>
-        <p><img src='/images/fullPageNews/news1-3.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news1-3.jpg' alt='not found'></img></p>
         <figcaption>The first step to listening: stop talking.</figcaption>
     </figure>
     <h2>8. Listening</h2>
@@ -76,11 +76,11 @@ const news=[
 {
     id:2,
     tag:'inspiration',
-    image:'/images/horizontal_img.jpg',
+    image:'images/horizontal_img.jpg',
     title: 'The 5 LESSONS In Life People Learn TOO LATE',
     shortDescription:'What are the lessons people most often learn too late in life? Originally appeared on Quora--the place to gain and share knowledge, empowering people to learn from others and better understand the world.',
       
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'May 15, 2018 08:30',
     topNews:false,
@@ -90,7 +90,7 @@ const news=[
     <div> 
     <h1>5 Lessons Most People Learn Way Too Late in Life</h1>
     <figure>
-        <p><img src='/images/fullPageNews/news2-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news2-1.jpg' alt='not found'></img></p>
         <figcaption>The first step to listening: stop talking.</figcaption>
     </figure>
     <p>"What are the lessons people most often learn too late in life?" 
@@ -195,12 +195,12 @@ const news=[
 {
     id:3,
     tag:'lifestyle',
-    image:'/images/horizontal_img2.jpg',
+    image:'images/horizontal_img2.jpg',
     title: '10 amazing habits you must adopt in 2019!',
 
     shortDescription:'The achievement of any important goal is enabled by choosing new behaviours every day – their combined effect will lead to that magic moment when you will say; ‘Wow, I have done it!’.',
 
-    authorImage:"/images/author.png",
+    authorImage:"images/author.png",
     authorName:'Evan Carmichael',
     dataPost:'October 10, 2017 09:45',
 
@@ -211,7 +211,7 @@ const news=[
     <div>
     <h1>20 Habits of Happy People You Should Adopt in 2019</h1>
     <figure>
-        <p><img src='/images/fullPageNews/news3-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news3-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
     </figure>
     <h2>1. Forgive more.</h2>
@@ -317,7 +317,7 @@ const news=[
 {
     id:4,
     tag:'business',
-    image:'/images/vertical_img.jpg',
+    image:'images/vertical_img.jpg',
     title: 'Develop an Insane WORK ETHIC',
 
     shortDescription:'Everybody’s mind works differently. This is not a universal guide, in any way, and should be treated as mere pondering of the writer.',
@@ -325,7 +325,7 @@ const news=[
     topNews:false,
     tagTopNews:true,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -333,7 +333,7 @@ const news=[
     <div>
         <h1>3 steps to develop an Unstoppable Work Ethic</h1>
         <figure>
-        <p><img src='/images/fullPageNews/news4-1.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news4-1.jpeg' alt='not found'></img></p>
         <figcaption>Willie said “Either you’re getting off first or I’m going to 
         die on this treadmill.”</figcaption>
         </figure>
@@ -362,7 +362,7 @@ const news=[
           I feel like a kid on christmas eve. “Oh my god. So much books to read, so many 
           educated people around, such silence and WiFi too!”</p>
           <figure>
-        <p><img src='/images/fullPageNews/news4-2.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news4-2.jpeg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>The right environment is a crucial factor in deciding your overall mood during work. It can make or break your productivity. Some people are blessed with a natural ability to ignore distractions and work anywhere. But not me and I’m guessing not you too(even if you think otherwise).</p>
@@ -393,7 +393,7 @@ const news=[
 {
     id:5,
     tag:'business',
-    image:'/images/vertical_img3.jpeg',
+    image:'images/vertical_img3.jpeg',
     title: 'Should you still do remote freelance WordPress development?',
 
     shortDescription:'Did you know that a client looking for a custom WordPress site usually pays between $3,000 and $15,000 dollars to a remote freelancer, according to ManageWP.com?',
@@ -401,7 +401,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -415,7 +415,7 @@ const news=[
         <p>WordPress is a beast that powers 29% of the Internet, and there are over 74.6 million websites that depend on it. Self-hosted WordPress websites account for 20% of that and over 50,000 WordPress websites are launched daily. That means there’s a monstrous market and a lot of work that needs to be done. This market can be put into 2 broad categories: WordPress users and developers.</p>
         <p>The WordPress ecosystem keeps growing because these 2 worlds need each other. It’s the good ol’ supply and demand rule.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news5-1.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-1.jpeg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>1st group: WordPress users (Business Owners)</h2>
@@ -426,7 +426,7 @@ const news=[
         <p>Developers drive the technical side of the WordPress world with themes, plugins, custom websites, bug fixes, and updates.</p>
         <p>The business owners create the demand and you supply what you’re good at: development.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news5-2.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-2.jpeg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>If you jump into the freelance WordPress development market as a developer what’s your earning potential?</p>
@@ -440,34 +440,34 @@ const news=[
             <li>25% of all WordPress themes on ThemeForest have made at least $2,500 in a month, according to Envato.</li>
         </ul>
         <figure>
-        <p><img src='/images/fullPageNews/news5-3.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-3.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Where can I find these remote freelance WordPress jobs?</h2>
         <p>The good clients avoid websites like UpWork, Freelancer, and Fiverr like the plague. They know it always dissolves into a bidding war with inexperienced overseas developers. That’s never fun for both the client and developer. As a remote freelancer, you want to avoid the low-ball clients that tend to flock to places like UpWork.</p>
         <p>I’ve been lucky enough to not have to use these websites because I know where to find good clients and you don’t have to put up with it anymore either.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news5-4.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-4.jpeg' alt='not found'></img></p>
         <figcaption>The usual problems a freelancer goes through when using Upwork, Freelancer, or Fiverr.</figcaption>
         </figure>
         <h2>How to find good clients</h2>
         <p>So where do you find the good clients? They post all over the internet in various communities, job boards, and forums. Clients post their job on job boards like WordPress Jobs and Angel List. When it comes to freelance projects they post on Reddit, comment on a thread in Hacker News, and post on a variety of other places like Twitter and Facebook Groups. It can be overwhelming and take hours a week if you don’t know where to look, but the good ones are definitely out there posting and looking for talent.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news5-5.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-5.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <figure>
-        <p><img src='/images/fullPageNews/news5-6.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-6.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <figure>
-        <p><img src='/images/fullPageNews/news5-7.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-7.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Avoid all of the searching and get projects sent directly to your email with RemoteLeads</h2>
         <p>You can avoid all of those hours of searching for good leads in different places by subscribing to RemoteLeads. We index over 500+ sources where clients post jobs, manually vet the best ones and send them directly to your inbox twice a week. It’s a good way to make sure you have a steady stream of leads coming in for your freelance development business. You can subscribe here.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news5-8.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news5-8.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Conclusion: Putting everything together</h2>
@@ -481,7 +481,7 @@ const news=[
 {
     id:6,
     tag:'trip',
-    image:'/images/vertical_img4.jpg',
+    image:'images/vertical_img4.jpg',
     title:"15 Interesting Facts You Might Not Know About the Moon ",
 
     shortDescription:'The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.',
@@ -489,7 +489,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
     
@@ -503,7 +503,7 @@ const news=[
         <p>#3 — Currently the most widely held theory on how the Moon was made is that an object the size of Mars smashed into Earth. The collision caused a mass of debris to orbit the Earth, and these pieces slowly began to gather together over a long period of time. This collection of rock and particles is what eventually formed the Moon we see today.</p>
         <p>#4 — The Moon isn’t exactly round as it appears, it’s actually shaped like an egg. The Moon has its center of mass about 1.2 miles away from its geometrical center which gives it, albeit an indiscernible, egg shape.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news6-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news6-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>#5 — Tides on Earth happen because of the gravitational pull of the Moon. When one side of Earth is facing the Moon, the oceans are pulled on both sides of the planet. A bulge (high tide) happens because the Moon is pulling water toward it, and on the opposite side of the planet, the bulge (also high-tide) happens because the Moon is “pulling” the Earth away from the water. Of course low-tide occurs on the other two sides. You can always know if it is high tide when the Moon is directly overhead, or you know it’s on the opposite side of the planet.</p>
@@ -512,7 +512,7 @@ const news=[
         <p>#8 — Apollo 14 Astronaut, Stuart Roosa, took some seeds with him while in orbit around the Moon during the time Alan Shepard and Edgar Mitchell were on the surface. The seeds were later germinated when they got back to Earth and more than 400 were planted at different places in the country as well as around the world. They came to be known as “Moon Trees” and are still alive and well today.</p>
         <p>#9 — There was a plan in the late 1950’s that was developed by the U.S. Air Force to detonate a nuclear bomb on the Moon. The top-secret project called Project A119, ‘A Study of Lunar Research Flights’, was to demonstrate the military capability of the U.S. at the height of the Cold War by exploding a nuclear warhead somewhere on the surface of the Moon.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news6-2.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news6-2.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>#10 — There is a 2-foot wide panel with 100 mirrors sitting on the Moon’s surface pointing at Earth. It’s used to accurately measure the distance from the Earth to the Moon. Neil Armstrong and Buzz Aldrin placed it on July 21, 1969 just before the end of their final moonwalk. It’s the only science experiment from the Apollo missions that continues to run to this day. Telescopes here on Earth send laser pulses off the mirrors on the Moon and intercept the returning pulse to get the distance measurement.</p>
@@ -520,12 +520,12 @@ const news=[
         <p>#12 — The Moon has extreme temperature variations because of its lack of atmosphere. It can get as hot as 260 degrees Fahrenheit and as cold as minus 280 degrees Fahrenheit.</p>
         <p>#13 — The Apollo missions brought back 842 pounds of lunar rock and soil from the Moon while Soviet spacecraft returned about three-quarters of a pound of material.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news6-3.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news6-3.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>#14 — There is definitely a lot of trash left on the Moon from all those space missions. In all, there is about 400,000 pounds of man-made material sitting on the lunar surface. Some things that have been left behind: 70 different spacecraft, which includes crashed orbiters and rovers, 96 bags of human waste in one form or another, 2 golf balls, TV cameras, 12 pairs of boots, and many other pieces of equipment. Someone on the moon cleaning crew is going to have to do a lot of work.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news6-4.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news6-4.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>#15 — 12 people have set foot on the Moon. We all know who the first was, but the last man to do it was Gene Cernan on Apollo 17 in 1972. No human has been back since. Buzz Aldrin was the first person to urinate on the Moon. Okay, it was in his spacesuit, which had the necessary equipment for such a thing, but somebody had to take that historic leap.</p>
@@ -539,14 +539,14 @@ const news=[
 {
     id:7,
     tag:'lifestyle',
-    image:'/images/vertical_img5.jpg',
+    image:'images/vertical_img5.jpg',
     title: 'The Deepest Hole in the World',
 
     shortDescription:'For 24 years, Soviet scientists dug deeper into the Earth’s surface than anyone had ever done before. The result was the Kola Superdeep Borehole located on the Kola Peninsula in Russia.',
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -558,7 +558,7 @@ const news=[
         <p>What did the scientists learn, and what did they find at these incredible depths? Quite a lot actually. They found single-celled plankton organisms at 4.3 miles down, and at nearly the same depth they discovered water. They also discovered that the temperature reached 356° F at the bottom of the hole which was more than their estimates. This became the reason the hole had to be eventually abandoned in 1994. The hole was simply too hot for drilling to continue. The environment became more liquid because of the hot conditions, and the borehole was increasingly more difficult to maintain. Plus it ruined equipment quickly.</p>
         <p>But the scientists were able to more accurately estimate the distance to the center of the Earth to almost 4,000 miles. Their hole was only a drop in the bucket compared to the massive distance farther to the Earth’s center. The hole barely made it into the Earth’s crust, which is about 23 miles thick. The goal had been to extend into the Earth’s mantle, which is approximately 1,800 miles thick under the crust.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news7-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news7-1.jpg' alt='not found'></img></p>
         <figcaption>The borehole welded shut Rakot13/Wikimedia</figcaption>
         </figure>
         <p>The first attempt at getting to the mantle took place in 1958 off the coast of Guadalupe, Mexico in the Pacific Ocean called Project Mohole. American engineers drilled in 11,700 feet of water and extended a hole 601 feet beneath the seafloor. They project ran out of funding in 1966. The next large attempt happened from 1987 to 1995 where the German Continental Deep Drilling Program was begun by German scientists in Bavaria. They managed to get about 5.7 miles down and discovered temperatures that got as high as 600° F. They too ran out funding.</p>
@@ -572,7 +572,7 @@ const news=[
 {
     id:8,
     tag:'inspiration',
-    image:'/images/vertical_img6.jpg',
+    image:'images/vertical_img6.jpg',
     title: 'Strange and Fascinating Nautical Superstitions',
 
     shortDescription:'Life at sea was hard enough for sailors and fishermen hundreds of years ago. They had the danger of being on the open water, the weather, and the endless work to complete, but one thing they also had to contend with was remembering the long list of superstitions they had to follow.',
@@ -580,7 +580,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -591,39 +591,39 @@ const news=[
         <h2>Unlucky Fridays</h2>
         <p>Fridays were once considered to be the unluckiest day of the week to start a voyage since Jesus Christ was crucified on a Friday. But Thursdays are also considered unlucky because it’s considered the day of Thor, the god of storms and thunder. Count out the first Monday in April too, as this was the day that Cain killed Abel, and the second Monday in August is off limits because it was the day Sodom and Gomorrah were destroyed.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>No Bananas</h2>
         <p>Bananas have been thought to bring bad luck on ships for a long time, and there are many theories on why such a lovable fruit could be considered so bad. Bananas spoiled rather quickly, especially when they were in a warm cargo hold, and they would release deadly fumes as they fermented. Another theory suggests that when bananas were aboard a ship, fishermen weren’t able to catch any fish because of how quickly they had to get the bananas to their destination before they went bad. In addition to bananas going bad, sometimes poisonous spiders would be packed away with the fruit. A sailor would get bit by a spider and die, thus the association with bananas and death was formed. These are just a few of the, “no bananas on board” theories.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-2.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-2.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Sorry, No Women on Board Either</h2>
         <p>Women were considered a distraction to sailors from completing their duties or thought of as a source of jealousy between sailors. This would make the sea angry. Mermaids, the half-woman, half-fish creatures, were also believed to lure a ship with their siren song into treacherous waters where the ship would be destroyed. This didn’t stop sailors from putting women on the figureheads of ships, however. The often bare-breasted women were thought to calm the sea, and her open eyes would guide the ship to safety.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-3.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-3.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Whistling and the Weather</h2>
         <p>Whistling on a ship was considered a no-no. It was believed that whistling would bring up a storm. While this has no basis in fact, the saying, “Red sky in the morning, sailor take warning. Red sky at night, sailor’s delight,” does have some merit. If the skies are red in the morning, it’s because the sun in the east illuminates the bottom of moisture-laden clouds in the west if more clouds are rolling in. If skies are red at sunset, sunlight is clear from the west so the westerly wind will be bringing clear skies. The saying works best at the mid-latitudes where the prevailing winds travel west to east.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-4.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-4.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Don’t Change the Name of a Ship</h2>
         <p>It’s considered bad luck to change the name of a ship after it has been christened. Now if the name of the ship just had to be changed, there were some procedures that had to take place. First, the old name had to be removed from the ship, even from the logbooks. Next the old name had to be written on a piece of paper, placed in a box, and then burned until there were only ashes left. The remains of the box were then thrown into the sea when there was an outgoing tide.</p>
         <p>Another interesting ceremony takes place when a mast is about to be stepped, which is when a boat’s mast is set into a notch in the keel. A coin is placed under the mast before it is set. This tradition is said to go back to the ancient Romans when they placed coins in the mouths of men when they were killed in battle. The reason for the coin under the mast was so the crew of the ship would be able to pay Charon, the ferryman of Hades, to cross the River Styx in the afterlife. The placing of a coin or some other memorabilia to bring good luck under a mast is done even today on modern ships.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-5.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-5.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Dolphins and Sharks</h2>
         <p>The sign of a shark following a ship told of an imminent death aboard the ship, while dolphins were considered good luck and and a harbinger of good things to come.</p>
         <p>There were other animals that were considered good and bad luck to mariners too. Turtles were considered good luck, and sailors that carried their bones were supposed to have good fortune. But if a sailor killed a turtle and didn’t eat it, they would have bad luck. Sailors also had a fear of manta rays because these animals were believed to be able to attach themselves to a ship’s anchor and drag it under the sea. Killing a seabird such as a seagull or an albatross, as well as a dolphin, was thought to bring bad luck. Seabirds were thought to carry the souls of dead sailors.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-6.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-6.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Sailing Cats</h2>
@@ -631,7 +631,7 @@ const news=[
         <h2>Forbidden Words</h2>
         <p>It was considered bad luck to say certain words aboard a ship. Saying the words “drown”, “pig”, “goodbye”, and “good luck” were strictly off limits. It was also considered bad luck for the wives of the men going to sea to tell them goodbye or wave goodbye once they left for their voyage.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news8-7.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news8-7.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <h2>Avoid these People</h2>
@@ -645,7 +645,7 @@ const news=[
 {
     id:9,
     tag:'trip',
-    image:'/images/vertical_img7.jpeg',
+    image:'images/vertical_img7.jpeg',
     title: 'Why I travel solo',
 
     shortDescription:'I’m 27 and female. Since I was 21, I’ve been away at least once a year, for anything from 3 nights to 9 months, alone. I also go on trips with friends, but I make a point of regularly going solo.',
@@ -653,7 +653,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -698,7 +698,7 @@ const news=[
 {
     id:10,
     tag:'trip',
-    image:'/images/vertical_img8.jpeg',
+    image:'images/vertical_img8.jpeg',
     title: '16 Apps That Will Help You Travel The World',
 
     shortDescription:'If you ask just about anyone what they’d like to do more of, travel is bound to be one of the most common answers. ',
@@ -706,7 +706,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -718,63 +718,63 @@ const news=[
         <h2>1. Destinations on Google</h2>
         <p>Explore cities and book flights with Google.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-1.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-1.jpeg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Google keeps getting smarter. Now, when you’re planning a trip on your mobile device, type in the continent, country, or state you’d like to visit and add the word “destination” to get an automatic collection of options. Google will suggest spots that fit with your hobbies and interests, as well as refine travel options to avoid crowds or bad weather. You can book your flights, hotels, and itineraries directly from Google as well. Travel life just got so much easier.</p>
         <h2>2. Quest Organizer</h2>
         <p>Spend less on your next travel quest.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-2.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-2.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>It can sometimes be a pain to book a trip when you want to visit multiple cities in between your first and last stop. QuestOrganizer makes the multi-destination trip easier to plan by helping you find free stopovers, build a custom flight using a number of one-way flights, and hack your trip to find the cheapest total rate possible. We love the simplicity of this app.</p>
         <h2>3. Tripnary</h2>
         <p>Find great places to fly on your budget.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-3.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-3.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>This one is super simple and fun to use. The search is based primarily on what you’re looking to do (e.g. beach vacation, winter getaway, local partying), as well as the price you’re looking to spend on the trip. If you plan far enough ahead, you’ll get a notification every time your ideal itinerary lowers in price. This is an especially useful app for those who are budget conscious and have flexible travel dates.</p>
         <h2>4. Travo</h2>
         <p>Smart trip planning for the “mission critical” traveler.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-4.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-4.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Travo was built to help you save time and energy planning any travel you do specifically for meetings and events. Unlike many other sites that focus on price, this app helps you get to your destination at a specific time (and also at the most efficient price). This is a must-use app for business travelers who have tight schedules and don’t want to worry about the hassle of planning down to the minute.</p>
         <h2>5. Nomad List Collections</h2>
         <p>Curated collections of the best places to live and travel.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-5.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-5.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Nomad List is a phenomenal resource for those who travel frequently for both work and play. The collections are curated to help you find interesting places to visit based on categories like: visa-free destinations for American citizens, best cities to live in Asia, safest cities for solo female travelers, and best cities to bootstrap a startup. This is one of those sites you’ll want to bookmark and come back to over and over again.</p>
         <h2>6. Tripomatic 3.0</h2>
         <p>Itinerary planner for independent travelers.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-6.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-6.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Have you ever wondered, upon landing in a new city, exactly what you should do? You might want to be a bit spontaneous, but you also don’t want to miss any of the must-see spots. Enter: Tripomatic. Search your destination, and up pops a list of top destinations for sightseeing, food, drink, and more. This is a great guide if you want a little bit of itinerary help without needing to lug a big Lonely Planet book around with you.</p>
         <h2>7. Airbnb Live There</h2>
         <p>Don’t go there. Live there.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-7.gif' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-7.gif' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>We’re already obsessed with Airbnb. But now, the company is offering a host of features that enable you to truly live like a local wherever you travel. The newly designed app is built to match you to the homes, neighborhoods, and experiences that will help you explore a city the way it’s meant to be lived in. You can find spots closer to the things you want to do, or you can search by property (e.g. apartment, bungalow, castle) and neighborhood type (e.g. quiet, hip, scenic). Airbnb’s Guidebooks are another fun addition, complete with millions of host tips‚ from the best bars and restaurants to off-the-beaten-path gems. It’s never been easier to experience a city like a local, no matter how long you’re in town.</p>
         <h2>8. Grabr</h2>
         <p>Peer-to-peer international shopping & delivery.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-8.gif' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-8.gif' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>If you’re going to be traveling, you might as well make some money, right? Grabr is a peer-to-peer delivery service that matches locals who want to purchase something in a different city with travelers visiting from those cities. If you’re headed to Japan from NYC, you might find someone already in Japan who wants a pair of sneakers from a shop in NYC. If you win the gig, you grab what the “shopper” is looking for, and then get paid to deliver them when you get into town. If Postmates and Party With a Local had a travel app baby, this would be it.</p>
         <h2>9. Boom</h2>
         <p>This supersonic passenger jet gets you from NYC to LDN in 3½ hours.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-9.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-9.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Before you get too excited, these planes don’t actually exist yet. But when they do, 
@@ -782,14 +782,14 @@ const news=[
         <h2>10. Overnight</h2>
         <p>Book a last-minute stay with local hosts.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-10.jpeg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-10.jpeg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>This app is built specifically around last-minute trips. It functions similarly to Airbnb, but focuses more on day-of travel. You look for a location where you’d like to spend the night, and hosts get to decide if they want to host you that day. This is a great way to find a place to stay without much planning needed; just go on your adventure, and let the serendipity begin!</p>
         <h2>11. Plane</h2>
         <p>Connect with new people in new places.</p>
         <figure>
-        <p><img src='/images/fullPageNews/news10-11.png' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news10-11.png' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>This social icebreaker app helps you connect with new people in new places. You ask a question, and other app users will answer if it’s relevant to them. For example, you can use Plane to find people who are going out to good restaurants, bars, and concerts you want to check out while in town. This is a great tool for those who want to connect with and meet locals while having a new experience. Poof! There goes the need to use Tinder to make friends while you’re traveling.</p>
@@ -801,7 +801,7 @@ const news=[
 {
     id:11,
     tag:'trip',
-    image:'/images/vertical_img9.jpg',
+    image:'images/vertical_img9.jpg',
     title: 'TRAVEL QUESTION: WHERE SHOULD WE STOP OFF ON OUR PORTUGAL ROAD TRIP?',
 
     shortDescription:'We are travelling to Porto next week for a few nights. We wondered about renting a car and driving down to Lisbon and back. Where would you recommend we stop along the way?',
@@ -809,7 +809,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -817,7 +817,7 @@ const news=[
     <div>
         <h1>WHERE SHOULD WE STOP OFF ON OUR PORTUGAL ROAD TRIP?</h1>
         <figure>
-        <p><img src='/images/fullPageNews/news11-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news11-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>We are travelling to Porto next week for a few nights. We wondered about renting a car and driving down to Lisbon and back. Where would you recommend we stop along the way?</p>
@@ -833,7 +833,7 @@ const news=[
 {
     id:12,
     tag:'trip',
-    image:'/images/vertical_img10.jpg',
+    image:'images/vertical_img10.jpg',
     title: 'CROATIA: NEW EXPERIENCES TO TRY THIS SPRING',
 
     shortDescription:"Planning a springtime break to Croatia? Here's our pick of new green initiatives sure to attract nature lovers as well as epicureans and lotus eaters looking for a spot of eco-indulgence.",
@@ -841,7 +841,7 @@ const news=[
     topNews:false,
     tagTopNews:true,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
     
@@ -850,24 +850,24 @@ const news=[
     <div>
         <h1>Croatia: new experiences to try this Spring </h1>
         <figure>
-        <p><img src='/images/fullPageNews/news12-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news12-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Planning a springtime break to Croatia? Here's our pick of new green initiatives sure to attract nature lovers as well as epicureans and lotus eaters looking for a spot of eco-indulgence.</p>
         <h2>Visit Zlarin, the plastic-free island</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news12-2.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news12-2.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <figure>
-        <p><img src='/images/fullPageNews/news12-3.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news12-3.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>In March 2019, the island of Zlarin made a pledge to be Croatia's first island to scrap single-use plastics. Starting this Spring, environmental activists as well as local residents on the island are working towards the goal to eliminate the use of bags, plates, cutlery and glasses made of plastic and replace these with more sustainable alternatives.</p>
         <p>Connected by ferry to the charming city of Šibenik, this small island covers an area of only eight square kilometres, but there are 19 kilometres of coastline which means plenty of beaches. There's another excellent reason to visit: Zlarin is also car-free! Hire a bicycle and you're all set for a low-carbon island holiday.</p>
         <h2>Sample natural wines at Roxanich Wine Hotel</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news12-4.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news12-4.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>“Honest and natural winemaking” is the ethos of Roxanich, winemakers producing quality vintages in the vineyard-covered hills of Istria, Croatia's westernmost region. Inspired by biodynamic agriculture – an organic approach to farming developed by Rudolf Steiner and guided by principles like balance and sustainability, chemicals are avoided as much as possible in the wine-making process in favour of natural ingredients.</p>
@@ -877,11 +877,11 @@ const news=[
         <p>There are plenty of examples of sustainable buildings at Gea Via to be inspired by: check out the straw bale eco-cabin, large dome tent for seminars and yoga retreats, outdoor kitchen, the stone circle open-air auditorium, and reed-roofed huts. Set in an olive grove overlooking the sea, accommodation is provided in glamping huts and tents.</p>
         <h2>Explore the Vis archipelago: A UNESCO Global Geopark</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news12-5.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news12-5.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <figure>
-        <p><img src='/images/fullPageNews/news12-6.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news12-6.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Vis has been in the international spotlight in the past year as the picturesque filming location for Mamma Mia 2. But this Dalmatian island was in the news again last month when it was designated as a UNESCO Global Geopark. This status recognises its exceptional geological heritage. Vis and the nearby islands of Jabuka, Brusnik, Biševo and Palagruža, which make up the Vis archipelago, are geologically the oldest islands of the Adriatic Sea.</p>
@@ -896,7 +896,7 @@ const news=[
 {
     id:13,
     tag:'inspiration',
-    image:'/images/vertical_img11.jpg',
+    image:'images/vertical_img11.jpg',
     title: 'HOW TO MAKE THE MOST OF MUSIC FESTIVALS WITHOUT HARMING THE PLANET',
 
     shortDescription:'The festival season is finally upon us and we’re bursting with excitement. Glastonbury, Coachella, Primavera, you name it – we’ll be there.',
@@ -904,7 +904,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -912,21 +912,21 @@ const news=[
     <div>
         <h1>HOW TO MAKE THE MOST OF MUSIC FESTIVALS WITHOUT HARMING THE PLANET</h1>
         <figure>
-        <p><img src='/images/fullPageNews/news13-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news13-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>The festival season is finally upon us and we’re bursting with excitement. Glastonbury, Coachella, Primavera, you name it – we’ll be there. However, we can’t help but be acutely aware that festivals produce a shocking amount of plastic. The Association of Independent Festivals (AIF) say that audiences at UK festivals consume 10 million plastic bottles and that 250,000 tents are left at festival sites annually.</p>
         <p>But we’re determined not to let the doom and gloom taint our festival experiences, or yours! Instead, we’ve come up with an festival guide for the ecologically minded, so you can have an unforgettable festival experience and feel safe in the knowledge that you’re doing your bit for the planet simultaneously. Roll on our 5 suggestions for a greener festival season.</p>
         <h2>Pack an eco-friendly ‘festival survival & hygiene kit’</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news13-2.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news13-2.jpg' alt='not found'></img></p>
         <figcaption>Deodorant from the survival kitFull Circle</figcaption>
         </figure>
         <p>Packing for a festival with limited space in your bag can often lead you to buying multiple small plastic bottles that will be chucked away after a fun-filled weekend. Thankfully, Full Circle has got your hygiene needs covered this festival season. Within this nifty kit, you will find 9 products - all of which are either reusable, biodegradable or recyclable.</p>
         <p>What’s included: antiperspirant in a recyclable aluminium can, toothpaste in a zero-waste reusable aluminium pot, a biodegradable eco-towel, dry shampoo in a recyclable aluminium can, 100% recycled toilet paper, anti-bac in a reusable aluminium bottle, biodegradable face-wipes and no-rinse body wash in a zero-waste reusable aluminium bottle. What more could you need? Priced at £22.99.</p>
         <h2>Sparkle in sustainable style</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news13-3.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news13-3.jpg' alt='not found'></img></p>
         <figcaption>Biodegradable glitterEcoStardust</figcaption>
         </figure>
         <p>Glitter may look pretty but what it can do to the planet is ugly, as micro-plastics seep into our oceans and work their way up to the top of the food chain. 38 Degrees began a petition to ban micro-plastic glitter as they found in a recent study that ‘up to a third of fish caught in the North Sea contained micro-plastic particles’.</p>
@@ -936,7 +936,7 @@ const news=[
         <p>From £24.49 and available on Zen Wardrobe</p>
         <h2>A Tent is for life, not just for a festival</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news13-4.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news13-4.jpg' alt='not found'></img></p>
         <figcaption>Biodegradable glitterEcoStardust</figcaption>
         </figure>
         <p>The AIF found that 875 tonnes in plastic waste had been left in the form of tents after the UK festival season in 2018 - which is equivalent to eight blue whales! So what options do we have to dramatically decrease this shocking statistic?</p>
@@ -953,7 +953,7 @@ const news=[
 {
     id:14,
     tag:'business',
-    image:'/images/vertical_img12.jpg',
+    image:'images/vertical_img12.jpg',
     title: 'Wind power: £100m fund aims to boost UK companies',
 
     shortDescription:'A £100m fund has been established to help UK firms capitalise on the boom in offshore wind.',
@@ -961,7 +961,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -969,7 +969,7 @@ const news=[
     <div>
         <h1>Wind power: £100m fund aims to boost UK companies</h1>
         <figure>
-        <p><img src='/images/fullPageNews/news14-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news14-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>A £100m fund has been established to help UK firms capitalise on the boom in offshore wind.</p>
@@ -990,7 +990,7 @@ const news=[
 {
     id:15,
     tag:'business',
-    image:'/images/vertical_img13.jpg',
+    image:'images/vertical_img13.jpg',
     title: 'Lloyds will not reveal frozen account details',
 
     shortDescription:'Lloyds Banking Group has refused to reveal how much money is in the Jersey accounts which it has frozen amid heightened fears about financial crime.',
@@ -998,7 +998,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -1006,7 +1006,7 @@ const news=[
     <div>
         <h1>Lloyds will not reveal frozen account details</h1>
         <figure>
-        <p><img src='/images/fullPageNews/news15-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news15-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Lloyds Banking Group has refused to reveal how much money is in the Jersey accounts which it has frozen amid heightened fears about financial crime.</p>
@@ -1031,7 +1031,7 @@ const news=[
 {
     id:16,
     tag:'lifestyle',
-    image:'/images/vertical_img14.jpg',
+    image:'images/vertical_img14.jpg',
     title: 'Turning carbon dioxide into cash',
 
     shortDescription:'Scientists from round the world are meeting in Germany to improve ways of making money from carbon dioxide.',
@@ -1039,7 +1039,7 @@ const news=[
     topNews:false,
     tagTopNews:false,
 
-    authorImage:'/images/author.png',
+    authorImage:'images/author.png',
     authorName:'Evan Carmichael',
     dataPost:'April 28, 2016 10:15',
 
@@ -1047,7 +1047,7 @@ const news=[
     <div>
         <h1>Turning carbon dioxide into cash</h1>
         <figure>
-        <p><img src='/images/fullPageNews/news16-1.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news16-1.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Scientists from round the world are meeting in Germany to improve ways of making money from carbon dioxide.</p>
@@ -1062,7 +1062,7 @@ const news=[
         <p>Here are their recipes for success (or at least, the ones they will share with us).</p>
         <h2>Three success stories</h2>
         <figure>
-        <p><img src='/images/fullPageNews/news16-2.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news16-2.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Recipe: Put cow dung and maize into a bio-digester, where bacteria break them down and produce biogas to heat our homes.</p>
@@ -1071,7 +1071,7 @@ const news=[
         <p>Product: High-grade fertiliser pellets that have soaked up more CO2 than they produced. The technology has already won export orders.</p>
         <p>CO2 to beer bubbles: Strutt and Parker Farms, Suffolk</p>
         <figure>
-        <p><img src='/images/fullPageNews/news16-3.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news16-3.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Recipe: Take horse muck and straw from Newmarket races. Put the smelly mess through a bio-digester (as above).</p>
@@ -1079,7 +1079,7 @@ const news=[
         <p>Product: Clean CO2 that’s sold to a local brewery to put the fizz into lemonade and lager.</p>
         <p>CO2 to building blocks: Carbon 8 Aggregates, Leeds</p>
         <figure>
-        <p><img src='/images/fullPageNews/news16-4.jpg' alt='not found'></img></p>
+        <p><img src='images/fullPageNews/news16-4.jpg' alt='not found'></img></p>
         <figcaption></figcaption>
         </figure>
         <p>Recipe: Take ash from the chimney of a waste incinerator plant.</p>
