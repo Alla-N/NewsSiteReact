@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/NewsSiteReact/static/media/imageSide2.d8e92eaf.png"
   },
   {
-    "revision": "a705ec96a8171e1f90f6",
-    "url": "/NewsSiteReact/static/css/main.6edf35d1.chunk.css"
+    "revision": "b231422d5368097af118",
+    "url": "/NewsSiteReact/static/css/main.07c80fb3.chunk.css"
   },
   {
     "revision": "0724b5c0411072678cb7",
     "url": "/NewsSiteReact/static/js/runtime~main.43963c1f.js"
   },
   {
-    "revision": "e4ded5bb0b84b91d768c",
-    "url": "/NewsSiteReact/static/js/2.b0ea115c.chunk.js"
+    "revision": "c021bc518efa635f3655",
+    "url": "/NewsSiteReact/static/js/2.818d086b.chunk.js"
   },
   {
     "revision": "b5341cb67fadb8e1a76b9d40cdd69432",
     "url": "/NewsSiteReact/static/media/imageSide1.b5341cb6.png"
   },
   {
-    "revision": "a705ec96a8171e1f90f6",
-    "url": "/NewsSiteReact/static/js/main.ee76515f.chunk.js"
+    "revision": "b231422d5368097af118",
+    "url": "/NewsSiteReact/static/js/main.fe6c1432.chunk.js"
   },
   {
     "revision": "8584b6c739c7b2d91ead525ac2fbede7",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/NewsSiteReact/static/media/layer.fc52c6c6.png"
   },
   {
-    "revision": "d7d6b9c97675445804a076dbb021790c",
+    "revision": "941c85efaa27a6a2bca567b899ecec79",
     "url": "/NewsSiteReact/index.html"
   }
 ];
