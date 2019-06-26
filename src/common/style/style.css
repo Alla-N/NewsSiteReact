@@ -312,8 +312,8 @@ div.headerNavMenu>ul>li>a:only-child{
 
  div.verticalNews>button.likeButton, div.horizontalNews>button.likeButton, div.fullSize>button.likeButton {
 	position: absolute;
-	top:0;
-	right: 10px;
+	top:10px;
+	right: 15px;
 	height: 25px;
 	width: 25px;
 	z-index: 99;

@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import { connect } from 'react-redux';
 import more from './more_vert.png';
+import like from '../../like.png';
+import unlike from '../../unlike.png'
 
 
 
@@ -38,7 +40,7 @@ class HorizontalNews extends Component {
             <div className="NewsImgHorizontal"><Link to={`/news/${id}`}><img src={image} alt=""></img></Link></div>
             <button className="likeButton"  onClick={()=>this.changeLikeButtonState()}>
 
-            {isLiked? <div>&#10084;</div> :  <div>&#9825;</div>}
+            {isLiked? <div><img src={like} alt=''></img></div> :  <div><img src={unlike} alt=''></img></div>}
 
         </button>
             <div className="videoDescription">
