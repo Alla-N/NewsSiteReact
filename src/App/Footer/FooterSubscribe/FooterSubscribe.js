@@ -8,9 +8,9 @@ const FooterSubscribe = () =>{
 				<div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div className="footerContainerLists">
-                            <h2>
+                            <h3>
                                 Subscribe to our newsletter
-							</h2>
+							</h3>
                         </div>
                     </div>
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
