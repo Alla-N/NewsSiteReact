@@ -391,19 +391,17 @@ div.verticalNews>button.likeButton>div, div.horizontalNews>button.likeButton>div
 }
 
 .NewsImgVertical img{
-	height: 100%;
+	min-height: 100%;
 	min-width: 100%;
 }
 
 .NewsImgHorizontal{
-	width: 100%;
-	height: 100%;
 	overflow: hidden;
 }
 
 .NewsImgHorizontal img{
-	height: 100%;
-	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
 }
 
 .fullSize>button, .horizontalNews button, .verticalNews button{
