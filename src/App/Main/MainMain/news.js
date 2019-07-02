@@ -317,7 +317,7 @@ const news=[
 {
     id:4,
     tag:'business',
-    image:'images/vertical_img.jpg',
+    image:'images/vertical_img.jpeg',
     title: 'Develop an Insane WORK ETHIC',
 
     shortDescription:'Everybody’s mind works differently. This is not a universal guide, in any way, and should be treated as mere pondering of the writer.',
