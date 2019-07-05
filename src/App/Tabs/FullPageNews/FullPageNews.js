@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import { connect } from 'react-redux';
 import './FullPageNews.css';
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 import news from '../../Main/MainMain/news';
 import like from '../../Main/MainMain/like.png';
 import unlike from '../../Main/MainMain/unlike.png';
@@ -45,6 +46,7 @@ class FullPageNews extends Component {
 
         return (
             <div className = 'fullPageNews'>
+            <ScrollToTopOnMount />
             <button className="likeButton"  onClick={()=>this.changeLikeButtonState()}>
 
             {isLiked? <div><img src={like} alt=''></img></div> :  <div><img src={unlike} alt=''></img></div>}
