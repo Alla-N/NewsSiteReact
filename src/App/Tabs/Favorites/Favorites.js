@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import { connect } from 'react-redux';
+import ScrollToTopOnMount from './../FullPageNews/ScrollToTopOnMount'
 
 import {keys} from 'lodash'
 
@@ -44,6 +45,7 @@ render (){
         <div className='row'>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div className='vertical'>
+        <ScrollToTopOnMount/>
         { 
             keys(filterParameters).map(( newsId) => (  
             <div key={newsId}>
