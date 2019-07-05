@@ -4,6 +4,7 @@ import FullSize from './FullSize/FullSize.js';
 import Horizontal from './Horizontal/Horizontal.js';
 import Vertical from './Vertical/Vertical.js';
 import RightSidebar from './RightSidebar/RightSidebar.js';
+import ScrollToTopOnMount from './../../Tabs/FullPageNews/ScrollToTopOnMount'
 
 
 
@@ -13,6 +14,7 @@ const MainMain = ({filterParameter}) =>{
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                        <ScrollToTopOnMount/>
                         <FullSize 
                             filterParameter={filterParameter}
                         />
